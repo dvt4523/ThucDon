@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "twitterlib.js@1.0.9",
+      "destination": "lib/twitterlib.js/"
+    }
+  ]
+}
