@@ -13,7 +13,7 @@ namespace ThucDon.Data
 
         }
         public DbSet<DishesModel> DishesModels { get; set; }
-        public DbSet<RawFoodModel> RawFoodModels { get; set; }
+        public DbSet<RawFoodCategory> RawFoodModels { get; set; }
 
     }
 }
