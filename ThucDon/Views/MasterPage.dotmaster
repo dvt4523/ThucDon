@@ -5,11 +5,12 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>MealPlan</title>
+    <title>Thuc Don</title>
     <link rel="stylesheet" href="~/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/Header.css" />
     <link rel="stylesheet" href="~/css/Nav-hover.css" />
+    <link rel="stylesheet" href="~/css/excarousel.css"/>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.10.2.js"
             integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
@@ -47,15 +48,9 @@
                 <li class="current_page_item navli level_2_main-home">
                     <a class="navarcti" href="#">Home</a>
                     <ul class=" level_2_big level_2_big_home" style="display: block; overflow: hidden;">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Body fat calculator</a></li>
+                        <li><a href="#">Add New Food Data</a></li>
+                        <li><a href="#">Meal Plan Generator</a></li>
                     </ul>
                 </li>
                 <%--<li class="level_2_main-product navli">
@@ -172,55 +167,40 @@
                         </li>
                     </ul>
                 </li>--%>
-                <%--<li class="navli level_2_main-sale">
-                    <a class="navarcti" href="#">sale</a>
-                    <ul class="level_2_big level_2_big-sale">
+                <li class="navli level_2_main-sale">
+                    <a class="navarcti" href="#">Exercise List</a>
+                    <ul class="level_2_big level_2_big-sale" style="margin-left:450px;">
                         <li>
                             <div class="level_2_sale col-sm-4 sale-column">
                                 <div class="sale-product-img">
-                                    <a href="#"><img src="http://cdn.shopify.com/s/files/1/1774/5405/products/champion_woven_slither_1_large.png?v=1486979613" alt="Champion Woven Slither"></a>
+                                    <a href="#"><img src="https://i.gyazo.com/5ec0b29c324106210df064d5d76e386f.png" alt="Champion Woven Slither"></a>
                                 </div>
-                                <p class="product-status"><span class="checkbox"></span>in stock</p>
                                 <div class="product-sale-name">
-                                    <h4><a href="#">CHAMPION WOVEN SLITHER</a> </h4>
-                                    <p>BEST SELLERS BOYS'</p>
-                                </div>
-                                <div class="price-sale-nav">
-                                    <h3>$20.00</h3>
+                                    <h4><a href="#">Chest</a> </h4>
                                 </div>
                             </div>
                             <div class="level_2_sale col-sm-4 sale-column">
                                 <div class="sale-product-img">
-                                    <a href="#"><img src="http://cdn.shopify.com/s/files/1/1774/5405/products/keds_champion_01_large.png?v=1486979635" alt="KEDS Champion"></a>
+                                    <a href="#"><img src="https://i.gyazo.com/5ce0d042e6bd6e44200b294b6d13bf37.png" alt="KEDS Champion"></a>
                                 </div>
-                                <p class="product-status"><span class="checkbox"></span>in stock</p>
                                 <div class="product-sale-name">
-                                    <h4><a href="#">KEDS CHAMPION</a> </h4>
-                                    <p>BOYS'</p>
-                                </div>
-                                <div class="price-sale-nav">
-                                    <h3>$23.00</h3>
+                                    <h4><a href="#">Abs</a> </h4>
                                 </div>
                             </div>
                             <div class="level_2_sale col-sm-4 sale-column">
                                 <div class="sale-product-img">
-                                    <a href="#"><img src="http://cdn.shopify.com/s/files/1/1774/5405/products/keds_champion_americana_02_large.png?v=1486979659" alt="KEDS Champion Americana"></a>
+                                    <a href="#"><img src="https://i.gyazo.com/f7a0ab69a1444fcd6b09745c13d74d03.png" alt="KEDS Champion Americana"></a>
                                 </div>
-                                <p class="product-status"><span class="checkbox"></span>in stock</p>
                                 <div class="product-sale-name">
-                                    <h4><a href="#">KEDS CHAMPION AMERICANA</a> </h4>
-                                    <p>BEST SELLERS BOYS' FOOTBALL LIFESTYLE </p>
-                                </div>
-                                <div class="price-sale-nav">
-                                    <h3>$23.00</h3>
+                                    <h4><a href="#">Upper Legs</a> </h4>
                                 </div>
                             </div>
                         </li>
                     </ul>
-                </li>--%>
+                </li>
                 <li class="level_2_main-blog navli">
                     <a class="navarcti" href="#">blog</a>
-                    <ul class=" level_2_big level_2_big-blog" style="margin-left:200px;">
+                    <ul class=" level_2_big level_2_big-blog" style="margin-left:90px;">
                         <li>
                             <div class="level_2_blog">
 
@@ -234,7 +214,7 @@
                                             <span class="blog_date">13 Feb. 2019</span>
 
                                             <div class="blog_content">
-                                                Winner of a coveted Red Magazine Blogger Award, Deliciously Ella documents the inspiring story of how Londoner Ella Woodward overcame a rare disease called Postural Tachycardia Syndrome simply by altering her diet...
+                                                Winner of a coveted Red Magazine Blogger Award, Deliciously Ella documents...
                                             </div>
 
                                             <div class="new-btn btn-content">
@@ -257,7 +237,7 @@
                                             <span class="blog_date">13 Feb. 2019</span>
 
                                             <div class="blog_content">
-                                                When I look at the typical breakfast food offerings at many restaurants, supermarkets, and food trucks, and I think about the health of our nation, I want to cry. Muffins, bagels, donuts, pancakes, waffles, French toast sticks…
+                                                When I look at the typical breakfast food offerings at many restaurants, supermarkets, and food trucks...
                                             </div>
 
                                             <div class="new-btn btn-content">
@@ -282,7 +262,7 @@
                                             <span class="blog_date">13 Feb. 2019</span>
 
                                             <div class="blog_content">
-                                                Benjamin Franklin once wrote, “...in this world nothing can be said to be certain, except death and taxes.” Obviously he wasn’t running a household because if he were, he would have included meal planning, or more appropriately, healthy meal planning, on that list!...
+                                                Benjamin Franklin once wrote, “...in this world nothing can be said to be certain, except death and taxes...
                                             </div>
                                             <div class="new-btn btn-content">
                                                 <a href="#" class="btn btn-effect btn-3">
