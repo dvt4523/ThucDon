@@ -18,6 +18,7 @@ namespace ThucDon.Data
         public DbSet<FatFood> FatFoods { get; set; }
         public DbSet<ProteinFood> ProteinFoods { get; set; }
         public DbSet<MiscFood> MiscFoods { get; set; }
+        public DbSet<FiberFood> FiberFoods { get; set; }
 
 
     }
