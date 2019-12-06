@@ -26,8 +26,8 @@
         <div class="row header1">
             <div class="col-md-3">
                 <a href="#" class="icon">MY ACCOUNT</a>
-                <a href="#" class="icon">WISHLIST</a>
-                <a href="#" class="icon">CHECKOUT</a>
+                <a href="#" class="icon">LOG OUT</a>
+                <a href="#" class="icon">REGISTER</a>
 
             </div>
             <div class="col-md-2 col-md-offset-6 header_social">
@@ -40,25 +40,25 @@
         <nav class="navbar navbar-default nav-new" role="navigation">
             <div class="navbar-header">
                 <div class="navlogo">
-                    <a href="#"><img src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/logo.png?686788137492996697" alt="Hamintec"></a>
+                    <a href="#"><img src="https://png2.cleanpng.com/sh/cb89ee7bfbf483dbfa213ed677e57dff/L0KzQYm3V8I0N6lrj5H0aYP2gLBuTfxwb5CygNdqbITrPbf2jBQuepZ4jNNAcnHxhH7sggRqdpgyjtdwZYTkgrrojvl0dV5zjeZ7aYTsf7A0jf9vfJkyhNHwbz24coa9WPY2bZQ8S6kBMT62Rom4U8g3PWI6S6Q8OUm3RYWBUcYveJ9s/kisspng-logo-health-food-restaurant-eating-vegetarianism-nutrition-month-logo-5b568f5ec73761.368138651532399454816.png" alt="Hamintec" style="height:120px; margin-top:-40px;"></a>
                 </div>
             </div>
             <ul id="top-menu" class="nav navbar-nav Center centerlinks">
                 <li class="current_page_item navli level_2_main-home">
-                    <a class="navarcti" href="../home/Index.html">Home</a>
+                    <a class="navarcti" href="#">Home</a>
                     <ul class=" level_2_big level_2_big_home" style="display: block; overflow: hidden;">
-                        <li><a href="#">Best Sellers</a></li>
-                        <li><a href="#">Boys`</a></li>
-                        <li><a href="#">Girls`</a></li>
-                        <li><a href="#">Lifestyle Collection</a></li>
-                        <li><a href="#">New Arrivals</a></li>
-                        <li><a href="#">Aerobics</a></li>
-                        <li><a href="#">Athletics</a></li>
-                        <li><a href="#">Badminton</a></li>
-                        <li><a href="#">Cycling</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
                     </ul>
                 </li>
-                <li class="level_2_main-product navli">
+                <%--<li class="level_2_main-product navli">
                     <a class="navarcti" href="../product/index-product.html">products</a>
                     <ul class=" level_2_big level_2_big_product" style="display: block; overflow: hidden;">
                         <li class="sfHover">
@@ -171,8 +171,8 @@
                             </div>
                         </li>
                     </ul>
-                </li>
-                <li class="navli level_2_main-sale">
+                </li>--%>
+                <%--<li class="navli level_2_main-sale">
                     <a class="navarcti" href="#">sale</a>
                     <ul class="level_2_big level_2_big-sale">
                         <li>
@@ -217,24 +217,24 @@
                             </div>
                         </li>
                     </ul>
-                </li>
+                </li>--%>
                 <li class="level_2_main-blog navli">
-                    <a class="navarcti" href="../Blog/Blog.html">blog</a>
-                    <ul class=" level_2_big level_2_big-blog">
+                    <a class="navarcti" href="#">blog</a>
+                    <ul class=" level_2_big level_2_big-blog" style="margin-left:200px;">
                         <li>
                             <div class="level_2_blog">
 
                                 <div class="column_item column_item__1  item_with_img col-sm-4">
-                                    <div class="blog_img1 blog_img"><img src="http://cdn.shopify.com/s/files/1/1774/5405/articles/blog1-min_1024x1024.jpg?v=1487839818" alt="See you in sneakers!"></div>
+                                    <div class="blog_img1 blog_img"><img src="https://img.theculturetrip.com/768x/wp-content/uploads/2015/02/warm-cumin-roasted-carrot-red-onion-and-lentil-salad.jpg" alt="Deliciously Ella"></div>
 
                                     <div class="blog_info">
                                         <div class="info_contain">
-                                            <h3 class="blog_title blog_title1"><a href="/blogs/blog/see-you-in-sneakers">See you in sneakers!</a></h3>
+                                            <h3 class="blog_title blog_title1"><a href="#">Deliciously Ella</a></h3>
 
-                                            <span class="blog_date">13 Feb. 2017</span>
+                                            <span class="blog_date">13 Feb. 2019</span>
 
                                             <div class="blog_content">
-                                                Many of our customers visit our store from the age of… several months. See you in sneakers!...
+                                                Winner of a coveted Red Magazine Blogger Award, Deliciously Ella documents the inspiring story of how Londoner Ella Woodward overcame a rare disease called Postural Tachycardia Syndrome simply by altering her diet...
                                             </div>
 
                                             <div class="new-btn btn-content">
@@ -248,18 +248,16 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="column_item column_item__2  item_with_img col-sm-4">
-                                    <div class="blog_img2 blog_img"><img src="http://cdn.shopify.com/s/files/1/1774/5405/articles/blog2-min_1024x1024.jpg?v=1487839767" alt="We never stop, achieving this goal."></div>
-
+                                    <div class="blog_img2 blog_img"><img src="https://hhp-blog.s3.amazonaws.com/2017/10/iStock-646863852.jpg" alt="We never stop, achieving this goal."></div>
                                     <div class="blog_info">
                                         <div class="info_contain">
-                                            <h3 class="blog_title"><a href="/blogs/blog/we-never-stop-achieving-this-goal">we never stop, archive...</a></h3>
+                                            <h3 class="blog_title"><a href="/blogs/blog/we-never-stop-achieving-this-goal">A doctor’s recipe for...</a></h3>
 
-                                            <span class="blog_date">13 Feb. 2017</span>
+                                            <span class="blog_date">13 Feb. 2019</span>
 
                                             <div class="blog_content">
-                                                Keds and snickers became an inevitable part of our life. We are proud of having opened a...
+                                                When I look at the typical breakfast food offerings at many restaurants, supermarkets, and food trucks, and I think about the health of our nation, I want to cry. Muffins, bagels, donuts, pancakes, waffles, French toast sticks…
                                             </div>
 
                                             <div class="new-btn btn-content">
@@ -275,16 +273,16 @@
                                 </div>
 
                                 <div class="column_item column_item__3 column_item__last item_with_img col-sm-4">
-                                    <div class="blog_img3 blog_img"><img src="http://cdn.shopify.com/s/files/1/1774/5405/articles/blog3-min_1024x1024.jpg?v=1487839792" alt="We’d love to hear your feedback on our product."></div>
+                                    <div class="blog_img3 blog_img"><img src="https://i2.wp.com/theeverydayrd.com/wp-content/uploads/2015/07/splenda_living_blog_healthy_meal_planning_ideas.jpg?resize=566%2C376&ssl=1" alt="We’d love to hear your feedback on our product."></div>
 
                                     <div class="blog_info">
                                         <div class="info_contain">
-                                            <h3 class="blog_title"><a href="/blogs/blog/we-d-love-to-hear-your-feedback-on-our-product">We’d love to hear your...</a></h3>
+                                            <h3 class="blog_title"><a href="/blogs/blog/we-d-love-to-hear-your-feedback-on-our-product">Easy Planning Healthy Meal...</a></h3>
 
-                                            <span class="blog_date">13 Feb. 2017</span>
+                                            <span class="blog_date">13 Feb. 2019</span>
 
                                             <div class="blog_content">
-                                                We’d love to hear your feedback on our product and customer service. With every request we become...
+                                                Benjamin Franklin once wrote, “...in this world nothing can be said to be certain, except death and taxes.” Obviously he wasn’t running a household because if he were, he would have included meal planning, or more appropriately, healthy meal planning, on that list!...
                                             </div>
                                             <div class="new-btn btn-content">
                                                 <a href="#" class="btn btn-effect btn-3">
