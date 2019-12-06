@@ -6,8 +6,6 @@
 <head>
     <meta charset="utf-8" />
     <title>MealPlan</title>
-    <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--%>
-    <%--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>--%>
     <link rel="stylesheet" href="~/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/Header.css" />
@@ -30,16 +28,7 @@
                 <a href="#" class="icon">MY ACCOUNT</a>
                 <a href="#" class="icon">WISHLIST</a>
                 <a href="#" class="icon">CHECKOUT</a>
-    <link rel="stylesheet" href="~/css/font-awesome.css"/>
-    <%--<dot:RequiredResource Name="Styles" />--%>
-</head>
-<body> 
-    <div class="container-fluid" style="padding-left: 0; padding-right: 0;">
-        <div class="row header1">
-            <div class="col-md-3">
-                <a href="#" class="icon">My account</a>
-                <a href="#" class="icon">Log in</a>
-                <a href="#" class="icon">Log out</a>
+
             </div>
             <div class="col-md-2 col-md-offset-6 header_social">
                 <a href="#" class="icon icon-twitter"></a>
@@ -54,7 +43,6 @@
                     <a href="#"><img src="http://cdn.shopify.com/s/files/1/1774/5405/t/2/assets/logo.png?686788137492996697" alt="Hamintec"></a>
                 </div>
             </div>
-
             <ul id="top-menu" class="nav navbar-nav Center centerlinks">
                 <li class="current_page_item navli level_2_main-home">
                     <a class="navarcti" href="../home/Index.html">Home</a>
@@ -318,7 +306,7 @@
                 <li class="navli"><a class="navarcti" href="../Contact%20Us-demo/Contact-Us.html">contact us</a></li>
             </ul>
 
-            <form class="navbar-form s-right" role="search">
+            <%--<form class="navbar-form s-right" role="search">
                 <div class="search_box">
                     <div class="input-group s-input">
                         <input type="text" class="form-control s-box" placeholder="Search store">
@@ -329,9 +317,9 @@
                         </div>
                     </div>
                 </div>
-            </form>
+            </form>--%>
 
-            <div class="header_cart">
+            <%--<div class="header_cart">
                 <a href="#"><i class="icon-shopping-cart"></i><span id="cart_items">0</span></a>
             </div>
             <input type="checkbox" id="menuToggler" class="input-toggler" value="1" autofocus="true" />
@@ -342,8 +330,9 @@
                     <span></span>
                     <span></span>
                 </div>
-            </label>
-            <nav id="sidebar" class="sidebar" role="navigation" aria-labelledby="menuTogglerLabel" aria-hidden="true">
+            </label>--%>
+
+            <%--<nav id="sidebar" class="sidebar" role="navigation" aria-labelledby="menuTogglerLabel" aria-hidden="true">
                 <ul id="menubar" class="menu" role="menubar" aria-orientation="vertical">
                     <li class="menu__item"><a class="menu__link" href="#" role="menuitem" tabindex="-1">Home</a></li>
                     <li class="menu__item">
@@ -387,9 +376,7 @@
                         </ul>
                     </li>
                 </ul>
-            </nav>
-        </div> 
-        <nav class="navbar navbar-default nav-new" role="navigation">
+            </nav>--%>
         </nav>
     </div>
 	<%--<div class="page-top">
