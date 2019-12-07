@@ -38,10 +38,10 @@
                 <a href="#" class="icon icon-google-plus"></a>
             </div>
         </div>
-        <nav class="navbar navbar-default nav-new" role="navigation">
+        <nav class="navbar navbar-default nav-new" role="navigation" style="height:90px;">
             <div class="navbar-header">
                 <div class="navlogo">
-                    <a href="#"><img src="https://png2.cleanpng.com/sh/cb89ee7bfbf483dbfa213ed677e57dff/L0KzQYm3V8I0N6lrj5H0aYP2gLBuTfxwb5CygNdqbITrPbf2jBQuepZ4jNNAcnHxhH7sggRqdpgyjtdwZYTkgrrojvl0dV5zjeZ7aYTsf7A0jf9vfJkyhNHwbz24coa9WPY2bZQ8S6kBMT62Rom4U8g3PWI6S6Q8OUm3RYWBUcYveJ9s/kisspng-logo-health-food-restaurant-eating-vegetarianism-nutrition-month-logo-5b568f5ec73761.368138651532399454816.png" alt="Hamintec" style="height:120px; margin-top:-40px;"></a>
+                    <a href="#"><img src="https://png2.cleanpng.com/sh/cb89ee7bfbf483dbfa213ed677e57dff/L0KzQYm3V8I0N6lrj5H0aYP2gLBuTfxwb5CygNdqbITrPbf2jBQuepZ4jNNAcnHxhH7sggRqdpgyjtdwZYTkgrrojvl0dV5zjeZ7aYTsf7A0jf9vfJkyhNHwbz24coa9WPY2bZQ8S6kBMT62Rom4U8g3PWI6S6Q8OUm3RYWBUcYveJ9s/kisspng-logo-health-food-restaurant-eating-vegetarianism-nutrition-month-logo-5b568f5ec73761.368138651532399454816.png" alt="Hamintec" style="height:120px; margin-top:-30px;"></a>
                 </div>
             </div>
             <ul id="top-menu" class="nav navbar-nav Center centerlinks">
@@ -284,10 +284,10 @@
                 <li class="navli"><a class="navarcti" href="../Contact%20Us-demo/Contact-Us.html">contact us</a></li>
             </ul>
 
-            <%--<form class="navbar-form s-right" role="search">
+            <form class="navbar-form s-right" role="search" style="margin-top:10px;">
                 <div class="search_box">
                     <div class="input-group s-input">
-                        <input type="text" class="form-control s-box" placeholder="Search store">
+                        <input type="text" class="form-control s-box" placeholder="Search page">
                         <div class="input-group-btn">
                             <button class="s-btn btn-search-box btn btn-default " type="submit">
                                 <i class="glyphicon glyphicon-search"></i>
@@ -295,7 +295,7 @@
                         </div>
                     </div>
                 </div>
-            </form>--%>
+            </form>
 
             <%--<div class="header_cart">
                 <a href="#"><i class="icon-shopping-cart"></i><span id="cart_items">0</span></a>
