@@ -60,3 +60,5 @@ ThucDon/.vs/ThucDon/config/applicationhost.config
 ThucDon/.vs/ThucDon/v16/Server/sqlite3/storage.ide-shm
 
 ThucDon/.vs/ThucDon/v16/Server/sqlite3/storage.ide-wal
+
+*.cache
