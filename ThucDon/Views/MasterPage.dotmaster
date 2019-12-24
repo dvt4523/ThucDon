@@ -290,7 +290,7 @@
                         <input type="text" class="form-control s-box" placeholder="Search page">
                         <div class="input-group-btn">
                             <button class="s-btn btn-search-box btn btn-default " type="submit">
-                                <i class="glyphicon glyphicon-search"></i>
+                                <i>Search</i>
                             </button>
                         </div>
                     </div>
@@ -372,7 +372,7 @@
                         <p class="title">Subscribe to the Hamintec mailing list to receive updates on new arrivals, special offers and other discount information.</p>
                     </div>
                     <div class="col-md-5">
-                        <form style="margin-top: 70px;">
+                        <form style="margin-top: 70px; float:right;">
                             <div class="input-group sua-input-group">
                                 <input type="email" class="form-control sua-form-control" placeholder="Enter your email">
                                 <div class="input-group-btn">
@@ -385,11 +385,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style="color:white;width: 90%;margin:auto;padding-top: 75px;">
+            <div class="row" style="color:white;width: 90%;margin:auto;padding-top: 30px;padding-bottom: 100px;">
                 <div class="col-md-3 col-sm-6">
-                    <h6 class="footer">INFOMATION</h6>
+                    <h6 class="footer">INFORMATION</h6>
                     <ul class="line-height">
-                        <li style="color:#3ad1d1">Home</li>
+                        <a href="#" class="footer_link"><li>Home</li></a>
                         <a href="#" class="footer_link"><li>Search</li></a>
                         <a href="#" class="footer_link"><li>Blog</li></a>
                         <a href="#" class="footer_link"><li>Collection</li></a>
@@ -403,13 +403,13 @@
                 <div class="col-md-3 col-sm-6">
                     <h6 class="footer">CATEGORIES</h6>
                     <ul class="line-height">
-                        <a href="#" class="footer_link"><li>Best seller</li></a>
-                        <a href="#" class="footer_link"><li>Boys`</li></a>
-                        <a href="#" class="footer_link"><li>Girls`</li></a>
-                        <a href="#" class="footer_link"><li>Lifestyle Collection</li></a>
-                        <a href="#" class="footer_link"><li>New Arrivals</li></a>
-                        <a href="#" class="footer_link"><li>Aerobics</li></a>
-                        <a href="#" class="footer_link"><li>Badminton</li></a>
+                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
+                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
+                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
+                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
+                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
+                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
+                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
                     </ul>
 
                 </div>
@@ -417,18 +417,17 @@
                     <h6 class="footer">My account</h6>
                     <ul class="footer_link line-height">
                         <a href="#" class="footer_link"><li>My account</li></a>
-                        <a href="#" class="footer_link"><li>My address</li></a>
                         <a href="#" class="footer_link"><li>My cart</li></a>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 ">
-                    <h6 class="footer">STORE INFOMATION</h6>
+                    <h6 class="footer">PAGE INFORMATION</h6>
                     <div class="contact_address">
                         <div class="fleft">
                             <i class="icon-location-arrow"></i>
                         </div>
                         <div class="fright">
-                            <span style="color:#3ad1d1">   MY COMPANY,</span><br>
+                            <span style="color:#3ad1d1">MY COMPANY,</span><br>
                             <span class="contact"><a href="#" class="footer_link">4578 MARMORA ROAD, GLASGOW D04 89GR</a></span>
                         </div>
                     </div>
