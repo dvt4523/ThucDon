@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -377,6 +376,8 @@ footer {
 }
 
 .fright {
+    width: 220px;
+    margin-top: 10px;
     float: left;
     height: 80px;
 }
@@ -513,34 +514,10 @@ ul {
     transition: all 300ms ease;
 }
 
-=======
-﻿.row.header1 {
-    padding-top: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.41);
-}
-
-    .row.header1 .col-md-3 a {
-        color: black;
-        font-size: 12px;
-        text-decoration: none;
-        margin-left: 9px;
-    }
-
-    .row.header1 .col-md-3 {
-        margin-left: 20px;
-    }
-.icon {
-    text-decoration: none;
-    color: black;
-    transition: all 300ms ease;
-}
-
->>>>>>> master
     .icon:hover {
         text-decoration: none;
         color: #3ad1d1;
     }
-<<<<<<< HEAD
 
 /*EDIT NAVBAR*/
 
@@ -559,11 +536,11 @@ ul {
 }
 
 .centerlinks {
-    margin-top:15px;
-    padding: 10px 0 0 0;
+    /*padding: 10px 0 0 0;*/
     font-weight: bold;
     float: left;
-    width: 55%;
+    width: 60%;
+    margin-top: -10px;
 }
 
 .navarcti {
@@ -579,6 +556,10 @@ ul {
 
 .navlogo {
     padding-top: 8px;
+    /*background-image: url("../image/logo.png");
+    height: 200px;
+    /*background-image: url("../image/homepage_footer_bg_img.jpg");*/
+    /*background-size: contai*/*/
 }
 
 .s-box {
@@ -865,11 +846,11 @@ Main components
     }
 
     .cd-fixed-bg.cd-bg-1 {
-        background-image: url("../image/background/homepage_brands_bg_img.jpg");
+        background-image: url("../image/homepage_footer_bg_img.jpg");
     }
 
     .cd-fixed-bg.cd-bg-2 {
-        background-image: url("../image/background/homepage_footer_bg_img.jpg");
+        background-image: url("../image/homepage_footer_bg_img.jpg");
     }
 
     .cd-fixed-bg.cd-bg-3 {
@@ -1200,19 +1181,4 @@ Main components
     font-size: 30px;
     font-weight: 400;
     margin: 50px 0;
-=======
-.header_social {
-    border-left: rgba(196, 198, 199, 0.88) 1px solid;
-    border-right: rgba(196, 198, 199, 0.88) 1px solid;
-    margin-top: -5px;
-    margin-bottom: 8px;
->>>>>>> master
-}
-.nav-new {
-    margin-top: 2px;
-    margin-bottom: 0px;
-    height: 125px;
-    box-sizing: border-box;
-    padding: 31px 45px;
-    background-color: #ffffff;
 }

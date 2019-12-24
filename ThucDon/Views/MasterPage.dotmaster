@@ -22,7 +22,7 @@
     <script src="~/js/angular.js" type="text/javascript"></script>
     <script src="~/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
-<body> 
+<body>
     <div class="container-fluid" style="padding-left: 0;padding-right: 0;">
         <div class="row header1">
             <div class="col-md-3">
@@ -41,7 +41,7 @@
         <nav class="navbar navbar-default nav-new" role="navigation" style="height:90px;">
             <div class="navbar-header">
                 <div class="navlogo">
-                    <a href="#"><img src="https://png2.cleanpng.com/sh/cb89ee7bfbf483dbfa213ed677e57dff/L0KzQYm3V8I0N6lrj5H0aYP2gLBuTfxwb5CygNdqbITrPbf2jBQuepZ4jNNAcnHxhH7sggRqdpgyjtdwZYTkgrrojvl0dV5zjeZ7aYTsf7A0jf9vfJkyhNHwbz24coa9WPY2bZQ8S6kBMT62Rom4U8g3PWI6S6Q8OUm3RYWBUcYveJ9s/kisspng-logo-health-food-restaurant-eating-vegetarianism-nutrition-month-logo-5b568f5ec73761.368138651532399454816.png" alt="Hamintec" style="height:120px; margin-top:-30px;"></a>
+                    <a href="#"><img src="../image/logo.png" alt="Thuc Don" style="height:70px; margin-top:-30px;"></a>
                 </div>
             </div>
             <ul id="top-menu" class="nav navbar-nav Center centerlinks">
@@ -284,7 +284,7 @@
                 <li class="navli"><a class="navarcti" href="../Contact%20Us-demo/Contact-Us.html">contact us</a></li>
             </ul>
 
-            <form class="navbar-form s-right" role="search" style="margin-top:10px;">
+            <form class="navbar-form s-right" role="search" style="margin-top:-15px;">
                 <div class="search_box">
                     <div class="input-group s-input">
                         <input type="text" class="form-control s-box" placeholder="Search page">
@@ -357,9 +357,103 @@
             </nav>--%>
         </nav>
     </div>
-	<%--<div class="page-top">
+    <%--<div class="page-top">
 		<span class=page-top-left> <dot:RouteLink Text="Home" RouteName="Default" class="page-button-text" /></span>
 	</div>--%>
-	<dot:ContentPlaceHolder ID="MainContent" />
+    <dot:ContentPlaceHolder ID="MainContent" />
+
+
+    <main class="cd-main-content">
+        <div class="cd-fixed-bg cd-bg-2">
+            <div class="enter_email">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="newsletter">Newsletter</p>
+                        <p class="title">Subscribe to the Hamintec mailing list to receive updates on new arrivals, special offers and other discount information.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <form style="margin-top: 70px;">
+                            <div class="input-group sua-input-group">
+                                <input type="email" class="form-control sua-form-control" placeholder="Enter your email">
+                                <div class="input-group-btn">
+                                    <input class="btn btn-default submit sua-submit" value="Subscribe" type="submit">
+                                    Subscribe
+                                    </input>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="color:white;width: 90%;margin:auto;padding-top: 75px;">
+                <div class="col-md-3 col-sm-6">
+                    <h6 class="footer">INFOMATION</h6>
+                    <ul class="line-height">
+                        <li style="color:#3ad1d1">Home</li>
+                        <a href="#" class="footer_link"><li>Search</li></a>
+                        <a href="#" class="footer_link"><li>Blog</li></a>
+                        <a href="#" class="footer_link"><li>Collection</li></a>
+                        <a href="#" class="footer_link"><li>About us</li></a>
+                        <a href="#" class="footer_link"><li>Wishlist</li></a>
+                        <a href="#" class="footer_link"><li>Sitemap</li></a>
+                        <%--<a href="../home/Index.html"><img src="../image/logo.png"></a>--%>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h6 class="footer">CATEGORIES</h6>
+                    <ul class="line-height">
+                        <a href="#" class="footer_link"><li>Best seller</li></a>
+                        <a href="#" class="footer_link"><li>Boys`</li></a>
+                        <a href="#" class="footer_link"><li>Girls`</li></a>
+                        <a href="#" class="footer_link"><li>Lifestyle Collection</li></a>
+                        <a href="#" class="footer_link"><li>New Arrivals</li></a>
+                        <a href="#" class="footer_link"><li>Aerobics</li></a>
+                        <a href="#" class="footer_link"><li>Badminton</li></a>
+                    </ul>
+
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h6 class="footer">My account</h6>
+                    <ul class="footer_link line-height">
+                        <a href="#" class="footer_link"><li>My account</li></a>
+                        <a href="#" class="footer_link"><li>My address</li></a>
+                        <a href="#" class="footer_link"><li>My cart</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <h6 class="footer">STORE INFOMATION</h6>
+                    <div class="contact_address">
+                        <div class="fleft">
+                            <i class="icon-location-arrow"></i>
+                        </div>
+                        <div class="fright">
+                            <span style="color:#3ad1d1">   MY COMPANY,</span><br>
+                            <span class="contact"><a href="#" class="footer_link">4578 MARMORA ROAD, GLASGOW D04 89GR</a></span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="contact_phone">
+                        <div class="fleft">
+                            <i class="icon-phone"></i>
+                        </div>
+                        <div class="fright">
+                            <span style="color:#3ad1d1">CALL US FOR FREE:</span><br>
+                            <span class="contact"><a href="#" class="footer_link">0123-456-789</a></span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="contact_email">
+                        <div class="fleft">
+                            <i class="icon-envelope"></i>
+                        </div>
+                        <div class="fright">
+                            <a href="#" class="footer_link">infoAMN@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
