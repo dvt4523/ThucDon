@@ -133,10 +133,6 @@
 
                                     </ul>
                                 </div>
-
-
-
-
                                 <div class="column_item_product column_item__4 col-sm-3">
                                     <h4 class="level_2_trigger">Accessories<i></i></h4><br>
 
@@ -357,11 +353,8 @@
             </nav>--%>
         </nav>
     </div>
-    <%--<div class="page-top">
-		<span class=page-top-left> <dot:RouteLink Text="Home" RouteName="Default" class="page-button-text" /></span>
-	</div>--%>
-    <dot:ContentPlaceHolder ID="MainContent" />
 
+    <dot:ContentPlaceHolder ID="MainContent" />
 
     <main class="cd-main-content">
         <div class="cd-fixed-bg cd-bg-2">
