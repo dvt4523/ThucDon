@@ -7,13 +7,7 @@ using ThucDon.Models;
 
 namespace ThucDon.Services
 {
-    public class RawFoodServices
+    public class GeneratedPlan
     {
-        private readonly ApplicationDbContext _db;
-        public RawFoodServices (ApplicationDbContext db)
-        {
-            _db = db;
-        }
-
     }
 }
