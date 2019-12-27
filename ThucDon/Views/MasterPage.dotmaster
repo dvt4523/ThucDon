@@ -216,8 +216,6 @@
                         <a href="#" class="footer_link"><li>About us</li></a>
                         <a href="#" class="footer_link"><li>Wishlist</li></a>
                         <a href="#" class="footer_link"><li>Sitemap</li></a>
-                        <%--<a href="../home/Index.html"><img src="../image/logo.png"></a>--%>
-
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6">
