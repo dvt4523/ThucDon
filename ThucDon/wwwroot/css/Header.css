@@ -408,7 +408,7 @@ ul {
     }
 
 .input-group {
-    width: 75%;
+    width: 250px;
 }
 
 .sua-input-group {
@@ -549,10 +549,6 @@ ul {
 
 .navlogo {
     padding-top: 8px;
-    /*background-image: url("../image/logo.png");
-    height: 200px;
-    /*background-image: url("../image/homepage_footer_bg_img.jpg");*/
-    /*background-size: contai*/*/
 }
 
 .s-box {
@@ -584,7 +580,7 @@ ul {
     }
 
     .s-btn i {
-        font-size: 19px !important;
+        font-size: 15px !important;
         margin-top: 6px !important;
         background: white;
     }

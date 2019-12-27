@@ -1,28 +1,5 @@
-﻿@viewModel ThucDon.ViewModels.MasterPageViewModel, ThucDon
-<%--@import MealPlan.Resources--%>
-<!DOCTYPE html>
+﻿@viewModel System.Object, mscorlib
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>Thuc Don</title>
-    <link rel="stylesheet" href="~/css/bootstrap.css" />
-    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/Header.css" />
-    <link rel="stylesheet" href="~/css/Nav-hover.css" />
-    <link rel="stylesheet" href="~/css/excarousel.css"/>
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-1.10.2.js"
-            integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
-            crossorigin="anonymous" type="text/javascript">
-    </script>
-    <script src="~/js/jquery.js" type="text/javascript"></script>
-    <script src="~/js/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="~/js/hambergerss.js" type="text/javascript"></script>
-    <script src="~/js/angular.js" type="text/javascript"></script>
-    <script src="~/js/bootstrap.min.js" type="text/javascript"></script>
-</head>
-<body>
     <div class="container-fluid" style="padding-left: 0;padding-right: 0;">
         <div class="row header1">
             <div class="col-md-3">
@@ -179,98 +156,6 @@
                         </div>
                     </div>
                 </div>
-            </form>           
+            </form>
         </nav>
     </div>
-    <dot:ContentPlaceHolder ID="MainContent" />
-    <main class="cd-main-content">
-        <div class="cd-fixed-bg cd-bg-2">
-            <div class="enter_email">
-                <div class="row">
-                    <div class="col-md-5">
-                        <p class="newsletter">Newsletter</p>
-                        <p class="title">Subscribe to the Hamintec mailing list to receive updates on new arrivals, special offers and other discount information.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <form style="margin-top: 70px; float:right;">
-                            <div class="input-group sua-input-group">
-                                <input type="email" class="form-control sua-form-control" placeholder="Enter your email">
-                                <div class="input-group-btn">
-                                    <input class="btn btn-default submit sua-submit" value="Subscribe" type="submit">
-                                    Subscribe
-                                    </input>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="color:white;width: 90%;margin:auto;padding-top: 30px;padding-bottom: 100px;">
-                <div class="col-md-3 col-sm-6">
-                    <h6 class="footer">INFORMATION</h6>
-                    <ul class="line-height">
-                        <a href="#" class="footer_link"><li>Home</li></a>
-                        <a href="#" class="footer_link"><li>Search</li></a>
-                        <a href="#" class="footer_link"><li>Blog</li></a>
-                        <a href="#" class="footer_link"><li>Collection</li></a>
-                        <a href="#" class="footer_link"><li>About us</li></a>
-                        <a href="#" class="footer_link"><li>Wishlist</li></a>
-                        <a href="#" class="footer_link"><li>Sitemap</li></a>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <h6 class="footer">CATEGORIES</h6>
-                    <ul class="line-height">
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                    </ul>
-
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <h6 class="footer">My account</h6>
-                    <ul class="footer_link line-height">
-                        <a href="#" class="footer_link"><li>My account</li></a>
-                        <a href="#" class="footer_link"><li>My cart</li></a>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 ">
-                    <h6 class="footer">PAGE INFORMATION</h6>
-                    <div class="contact_address">
-                        <div class="fleft">
-                            <i class="icon-location-arrow"></i>
-                        </div>
-                        <div class="fright">
-                            <span style="color:#3ad1d1">MY COMPANY,</span><br>
-                            <span class="contact"><a href="#" class="footer_link">4578 MARMORA ROAD, GLASGOW D04 89GR</a></span>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="contact_phone">
-                        <div class="fleft">
-                            <i class="icon-phone"></i>
-                        </div>
-                        <div class="fright">
-                            <span style="color:#3ad1d1">CALL US FOR FREE:</span><br>
-                            <span class="contact"><a href="#" class="footer_link">0123-456-789</a></span>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="contact_email">
-                        <div class="fleft">
-                            <i class="icon-envelope"></i>
-                        </div>
-                        <div class="fright">
-                            <a href="#" class="footer_link">infoAMN@gmail.com</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-</body>
-</html>
