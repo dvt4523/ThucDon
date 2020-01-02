@@ -18,6 +18,7 @@ namespace ThucDon
         private void ConfigureRoutes(DotvvmConfiguration config, string applicationPath)
         {
             config.RouteTable.Add("Default", "", "Views/Default.dothtml");
+            config.RouteTable.Add("MealPlanGenerator", "MealPlanGenerator", "Views/MealPlanGenerator.dothtml", new { });
             config.RouteTable.AutoDiscoverRoutes(new DefaultRouteStrategy(config));    
         }
 
