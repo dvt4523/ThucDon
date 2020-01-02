@@ -9,11 +9,27 @@ namespace ThucDon.Services
 {
     public class RawFoodServices
     {
-        private readonly ApplicationDbContext _db;
-        public RawFoodServices (ApplicationDbContext db)
+        public ApplicationDbContext _db;
+        public RawFoodServices(ApplicationDbContext db)
         {
             _db = db;
         }
 
+        public CarbFood GetRandomCarb()
+        {
+            return _db.CarbFoods.OrderBy(r => Guid.NewGuid()).Take(1).FirstOrDefault();
+        }
+        public ProteinFood GetRandomProtein()
+        {
+            return _db.ProteinFoods.OrderBy(r => Guid.NewGuid()).Take(1).FirstOrDefault();
+        }
+        public FatFood GetRandomFat()
+        {
+            return _db.FatFoods.OrderBy(r => Guid.NewGuid()).Take(1).FirstOrDefault();            
+        }
+        public MiscFood GetRandomMisc()
+        {
+            return _db.MiscFoods.OrderBy(r => Guid.NewGuid()).Take(1).FirstOrDefault();
+        }
     }
 }
