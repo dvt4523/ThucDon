@@ -207,35 +207,55 @@
             </div>
             <div class="row" style="color:white;width: 90%;margin:auto;padding-top: 30px;padding-bottom: 100px;">
                 <div class="col-md-3 col-sm-6">
-                    <h6 class="footer">INFORMATION</h6>
+                    <h6 class="footer">EXPERT ADVICE</h6>
                     <ul class="line-height">
-                        <a href="#" class="footer_link"><li>Home</li></a>
-                        <a href="#" class="footer_link"><li>Search</li></a>
-                        <a href="#" class="footer_link"><li>Blog</li></a>
-                        <a href="#" class="footer_link"><li>Collection</li></a>
-                        <a href="#" class="footer_link"><li>About us</li></a>
-                        <a href="#" class="footer_link"><li>Wishlist</li></a>
-                        <a href="#" class="footer_link"><li>Sitemap</li></a>
+                        <a href="#" class="footer_link"><li>Allergies, intolerances</li></a>
+                        <a href="#" class="footer_link"><li>Anxiety</li></a>
+                        <a href="#" class="footer_link"><li>Ask the experts</li></a>
+                        <a href="#" class="footer_link"><li>Asthma</li></a>
+                        <a href="#" class="footer_link"><li>Babies's health</li></a>
+                        <a href="#" class="footer_link"><li>Children's health</li></a>
+                        <a href="#" class="footer_link"><li>Cholesterol</li></a>
+                        <a href="#" class="footer_link"><li>Coeliac Disease</li></a>
+                        <a href="#" class="footer_link"><li>Diabetes toolkit</li></a>
+                        <a href="#" class="footer_link"><li>Exercise</li></a>
+                        <a href="#" class="footer_link"><li>FODMAPs toolkit</li></a>
+                        <a href="#" class="footer_link"><li>Fussy eaters</li></a>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <h6 class="footer">CATEGORIES</h6>
+                    <h6 class="footer">HEALTHY RECIPES</h6>
                     <ul class="line-height">
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
-                        <a href="#" class="footer_link"><li>SAMPLE</li></a>
+                        <a href="#" class="footer_link"><li>Baking</li></a>
+                        <a href="#" class="footer_link"><li>Beef</li></a>
+                        <a href="#" class="footer_link"><li>Chicken</li></a>
+                        <a href="#" class="footer_link"><li>Diabetes-friendly</li></a>
+                        <a href="#" class="footer_link"><li>Family favourites</li></a>
+                        <a href="#" class="footer_link"><li>Fish</li></a>
+                        <a href="#" class="footer_link"><li>Bluten free</li></a>
+                        <a href="#" class="footer_link"><li>High fibre</li></a>
+                        <a href="#" class="footer_link"><li>Kids in the kitchen</li></a>
+                        <a href="#" class="footer_link"><li>Lamb</li></a>
+                        <a href="#" class="footer_link"><li>Low FODMAP</li></a>
                     </ul>
 
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <h6 class="footer">My account</h6>
+                    <h6 class="footer">TERMS AND CONDITIONS</h6>
                     <ul class="footer_link line-height">
-                        <a href="#" class="footer_link"><li>My account</li></a>
-                        <a href="#" class="footer_link"><li>My cart</li></a>
+                        <a href="#" class="footer_link"><li>Cookie policy</li></a>
+                        <a href="#" class="footer_link"><li>Privacy Policy</li></a>
+                        <a href="#" class="footer_link"><li>Terms of use</li></a>
+                    </ul>
+                    <h6 class="footer">ABOUT US</h6>
+                    <ul class="footer_link line-height">
+                        <a href="#" class="footer_link"><li>Our team</li></a>
+                        <a href="#" class="footer_link"><li>Help with this website</li></a>
+                        <a href="#" class="footer_link"><li>About healthy food guide</li></a>
+                        <a href="#" class="footer_link"><li>Research</li></a>
+                        <a href="#" class="footer_link"><li>References</li></a>
+                        <a href="#" class="footer_link"><li>Our recipes explained</li></a>
+                        <a href="#" class="footer_link"><li>How much do i need to eat?</li></a>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 ">
