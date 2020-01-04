@@ -1,16 +1,7 @@
 ﻿@viewModel ThucDon.ViewModels.AddFoodDataViewModel, ThucDon
+@masterPage Views/MasterPage.dotmaster
 
-<!DOCTYPE html>
+<dot:Content ContentPlaceHolderID="MainContent">
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-
-
-</body>
-</html>
-
+</dot:Content>
 

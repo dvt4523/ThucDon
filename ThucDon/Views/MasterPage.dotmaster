@@ -245,7 +245,7 @@
                             <i class="icon-location-arrow"></i>
                         </div>
                         <div class="fright">
-                            <span style="color:#3ad1d1">MY COMPANY,</span><br>
+                            <span style="color:#3ad1d1">MY COMPANY:</span><br>
                             <span class="contact"><a href="#" class="footer_link">4578 MARMORA ROAD, GLASGOW D04 89GR</a></span>
                         </div>
                     </div>
@@ -265,6 +265,7 @@
                             <i class="icon-envelope"></i>
                         </div>
                         <div class="fright">
+                            <span style="color:#3ad1d1">EMAIL:</span><br>
                             <a href="#" class="footer_link">infoAMN@gmail.com</a>
                         </div>
                     </div>
