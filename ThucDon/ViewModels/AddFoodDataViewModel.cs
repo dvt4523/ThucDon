@@ -7,7 +7,7 @@ using DotVVM.Framework.ViewModel;
 
 namespace ThucDon.ViewModels
 {
-    public class AddFoodDataViewModel : DotvvmViewModelBase
+    public class AddFoodDataViewModel : MasterPageViewModel
     {
         
     }

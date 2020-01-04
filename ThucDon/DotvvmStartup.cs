@@ -19,6 +19,9 @@ namespace ThucDon
         {
             config.RouteTable.Add("Default", "", "Views/Default.dothtml");
             config.RouteTable.Add("MealPlanGenerator", "MealPlanGenerator", "Views/MealPlanGenerator.dothtml", new { });
+            config.RouteTable.Add("AddFoodData", "AddFoodData", "Views/AddFoodData.dothtml", new { });
+            config.RouteTable.Add("AboutUs", "AboutUs", "Views/AboutUs.dothtml", new { });
+            config.RouteTable.Add("ContactUs", "ContactUs", "Views/ContactUs.dothtml", new { });
             config.RouteTable.AutoDiscoverRoutes(new DefaultRouteStrategy(config));    
         }
 

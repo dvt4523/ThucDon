@@ -1,0 +1,8 @@
+﻿@viewModel ThucDon.ViewModels.AboutUsViewModel, ThucDon
+@masterPage Views/MasterPage.dotmaster
+
+<dot:Content ContentPlaceHolderID="MainContent">
+    <p>About Us Page</p>
+
+</dot:Content>
+

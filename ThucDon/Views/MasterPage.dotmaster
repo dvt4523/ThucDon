@@ -46,11 +46,13 @@
             </div>
             <ul id="top-menu" class="nav navbar-nav Center centerlinks">
                 <li class="current_page_item navli level_2_main-home">
-                    <a class="navarcti" href="#">Home</a>
+                    <%--<a class="navarcti" href="#">Home</a>--%>
+                    <dot:RouteLink class="navarcti" RouteName="Default" contextmenu="Default">Home</dot:RouteLink>
                     <ul class=" level_2_big level_2_big_home" style="display: block; overflow: hidden;">
                         <li><a href="#">Body fat calculator</a></li>
-                        <li><a href="#">Add New Food Data</a></li>
-                        <li><a href="#">Meal Plan Generator</a></li>
+                        <li><dot:RouteLink RouteName="AddFoodData" contextmenu="Add Food Data">Add New Food Data</dot:RouteLink></li>
+                        <li><dot:RouteLink RouteName="MealPlanGenerator" contextmenu="Meal Plan Generator">Meal Plan Generator</dot:RouteLink></li>
+
                     </ul>
                 </li>
                 <li class="navli level_2_main-sale">
@@ -164,8 +166,12 @@
                         </li>
                     </ul>
                 </li>
-                <li class="navli"><a class="navarcti" href="#">About us</a></li>
-                <li class="navli"><a class="navarcti" href="../Contact%20Us-demo/Contact-Us.html">contact us</a></li>
+                <li class="navli">
+                    <dot:RouteLink class="navarcti" RouteName="AboutUs" contextmenu="About Us">About Us</dot:RouteLink>
+                </li>
+                <li class="navli">
+                    <dot:RouteLink class="navarcti" RouteName="ContactUs" contextmenu="Contact Us">Contact Us</dot:RouteLink>
+                </li>
             </ul>
 
             <form class="navbar-form s-right" role="search" style="margin-top:-15px;">

@@ -8,7 +8,7 @@ using ThucDon.Services;
 
 namespace ThucDon.ViewModels
 {
-    public class MealPlanGeneratorViewModel : DotvvmViewModelBase
+    public class MealPlanGeneratorViewModel : MasterPageViewModel
     {
         public IEnumerable<CarbFood> CarbFoods { get; set; }
         public IEnumerable<ProteinFood> ProteinFoods { get; set; }

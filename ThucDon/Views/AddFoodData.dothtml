@@ -2,6 +2,6 @@
 @masterPage Views/MasterPage.dotmaster
 
 <dot:Content ContentPlaceHolderID="MainContent">
-
+    <p>Add Food Data page</p>
 </dot:Content>
 
