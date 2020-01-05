@@ -10,6 +10,7 @@ using DotVVM.Framework.Hosting;
 using DotVVM.Framework.Routing;
 using ThucDon.Data;
 using Microsoft.EntityFrameworkCore;
+using ThucDon.Services;
 
 namespace ThucDon
 {
@@ -37,6 +38,7 @@ namespace ThucDon
             services.AddDbContext<ApplicationDbContext>
                 (item => item.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddDotVVM<DotvvmStartup>();
+            services.AddScoped<RawFoodServices>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
