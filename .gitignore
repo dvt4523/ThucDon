@@ -64,3 +64,5 @@ ThucDon/.vs/ThucDon/v16/Server/sqlite3/storage.ide-wal
 *.cache
 
 ThucDon/ThucDon.csproj.user
+
+ThucDon/ThucDon.csproj
