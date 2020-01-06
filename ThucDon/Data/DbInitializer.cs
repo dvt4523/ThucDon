@@ -31,13 +31,12 @@ namespace ThucDon.Data
             _db.ProteinFoods.Add(new Models.ProteinFood
             {
                 Calories = 165,
-                FoodID = 001,
                 Protein = 31,
                 Fat = 3,
                 Carb = 0,
                 Fiber = 0,
                 Name = "Chicken Breast",
-                FoodCategory = new Models.RawFoodCategory { FoodCategoryID = 01, Name = "Protein Foods"}
+                FoodCategory = new Models.RawFoodCategory { Name = "Protein Foods"}
             });
             _db.SaveChanges();
 

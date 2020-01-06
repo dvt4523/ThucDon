@@ -39,16 +39,17 @@ namespace ThucDon
                 (item => item.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddDotVVM<DotvvmStartup>();
             services.AddScoped<RawFoodServices>();
+            services.AddScoped<IDbInitializer, DbInitializer>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IDbInitializer dbInitializer)
         {
 
             // use DotVVM
             var dotvvmConfiguration = app.UseDotVVM<DotvvmStartup>(env.ContentRootPath);
             dotvvmConfiguration.AssertConfigurationIsValid();
-            
+            dbInitializer.Initialize();
             // use static files
             app.UseStaticFiles(new StaticFileOptions
             {
