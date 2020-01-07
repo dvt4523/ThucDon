@@ -28,6 +28,12 @@ namespace ThucDon.Data
             }
 
             if (_db.ProteinFoods.Any()) return;
+            Models.RawFoodCategory ProteinFoods = new Models.RawFoodCategory { Name = "Protein Foods" };
+            Models.RawFoodCategory FatFoods = new Models.RawFoodCategory { Name = "Fat Foods" };
+            Models.RawFoodCategory CarbFoods = new Models.RawFoodCategory { Name = "Carb Foods" };
+            Models.RawFoodCategory MiscFoods = new Models.RawFoodCategory { Name = "Misc Foods" };
+            _db.RawFoodCategories.AddRange(ProteinFoods, FatFoods, CarbFoods, MiscFoods);
+
             _db.ProteinFoods.Add(new Models.ProteinFood
             {
                 Calories = 165,
@@ -36,7 +42,7 @@ namespace ThucDon.Data
                 Carb = 0,
                 Fiber = 0,
                 Name = "Chicken Breast",
-                FoodCategory = new Models.RawFoodCategory { Name = "Protein Foods"}
+                FoodCategory = ProteinFoods
             });
             _db.SaveChanges();
 
