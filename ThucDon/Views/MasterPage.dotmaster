@@ -1,16 +1,14 @@
 ﻿@viewModel ThucDon.ViewModels.MasterPageViewModel, ThucDon
-<%--@import MealPlan.Resources--%>
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title>Thuc Don</title>
-    <link rel="stylesheet" href="~/css/bootstrap.css" />
-    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="~/css/Header.css" />
     <link rel="stylesheet" href="~/css/Nav-hover.css" />
-    <link rel="stylesheet" href="~/css/excarousel.css"/>
+    <link rel="stylesheet" href="~/css/excarousel.css" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.10.2.js"
             integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
@@ -46,7 +44,6 @@
             </div>
             <ul id="top-menu" class="nav navbar-nav Center centerlinks">
                 <li class="current_page_item navli level_2_main-home">
-                    <%--<a class="navarcti" href="#">Home</a>--%>
                     <dot:RouteLink class="navarcti" RouteName="Default" contextmenu="Default">Home</dot:RouteLink>
                     <ul class=" level_2_big level_2_big_home" style="display: block; overflow: hidden;">
                         <li><a href="#">Body fat calculator</a></li>
@@ -185,10 +182,103 @@
                         </div>
                     </div>
                 </div>
-            </form>           
+            </form>
         </nav>
     </div>
+
+    <%--BEGIN SLIDE BANNER--%>
+    <div class="banner">
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- Indicators -->
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner carousel-banner">
+                <div class="indicators-control">
+                    <ol class="carousel-indicators indicators-banner">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+                </div>
+                <div class="item active item-banner">
+                    <img class="image-banner" src="https://hmp-cdn-dev.qmo.io/top-banner/5ba55f50ab9bf496231fa11a7aac11e3-Home_1600_Healthy-Meal-Plans.jpg" alt="">
+                    <div class="caption-banner carousel-caption">
+                        <div class="animatable fadeInUp textblock-1">
+                            <div class="textblock1-title">
+                                <h2>Eat well</h2>
+                                <h2 style="color:#3ad1d1;">Live better</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item-banner">
+                    <img class="image-banner" src="https://hmp-cdn-dev.qmo.io/top-banner/letushelp@2x.jpg" alt="">
+                    <div class="caption-banner carousel-caption">
+                        <div class="animatable fadeInUp textblock-1">
+                            <div class="textblock1-title">
+                                <h2>Special</h2>
+                                <h2 style="color:#3ad1d1">meal plans</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item-banner">
+                    <img class="image-banner" src="https://cdn-prd.healthymealplans.com/top-banner/4d2f3fc8fd12ad6faced4a2eff84c833-Very-Berry-Cheesecake-Parfait_Recipe-Of-The-Week-Banner_Healthy-Meal-Plans.jpg" alt="">
+                    <div class="caption-banner carousel-caption">
+                        <div class="animatable fadeInUp textblock-1">
+                            <div class="textblock1-title">
+                                <h2>very berry</h2>
+                                <h2 style="color:#3ad1d1;">chesscake parfait</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item-banner">
+                    <img class="image-banner" src="https://thewallpaper.co//wp-content/uploads/2016/03preview/food-healthy-morning-cereals-hd-wallpaper-desktop-images-of-windows-download-wallpaper-amazing-cool-images-free-stock-photos-pictures-1600x1024.jpg" alt="">
+                    <div class="caption-banner carousel-caption">
+                        <div class="animatable fadeInUp textblock-1">
+                            <div class="textblock1-title">
+                                <h2>Healthy</h2>
+                                <h2 style="color:#3ad1d1">meal ideas</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item-banner">
+                    <img class="image-banner" src="https://thewallpaper.co//wp-content/uploads/2016/03preview/food-salad-healthy-colorful-hd-wallpaper-high-resolution-background-images-desktop-images-of-windows-download-wallpaper-best-wallpaper-ever-images-free-stock-photos-pictures-1600x1024.jpg" alt="">
+                    <div class="caption-banner carousel-caption">
+                        <div class="animatable fadeInUp textblock-1">
+                            <div class="textblock1-title">
+                                <h2>5 healthy</h2>
+                                <h2 style="color:#3ad1d1">on-the-go</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <span class="left carousel-control banner-control slide-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </span>
+            <span class="right carousel-control banner-control slide-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </span>
+        </div>
+    </div>
+    <%--END SLIDE BANNER--%>
+
+    <%--Main content--%>
     <dot:ContentPlaceHolder ID="MainContent" />
+    <%--End main content--%>
+
     <main class="cd-main-content">
         <div class="cd-fixed-bg cd-bg-2">
             <div class="enter_email">
