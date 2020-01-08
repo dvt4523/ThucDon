@@ -2,5 +2,12 @@
 @masterPage Views/MasterPage.dotmaster
 
 <dot:Content ContentPlaceHolderID="MainContent">
-    <p>Meal Generator page</p>
+    <div class="container">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-md-2">Label 1: </label>
+                <div class="col-md-10" Validator.Value="{value: Data.CarbFoods}"
+            </div>
+        </form>
+    </div>
 </dot:Content>
