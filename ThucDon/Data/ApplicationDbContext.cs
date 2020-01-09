@@ -23,8 +23,18 @@ namespace ThucDon.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<RawFoodCategory>()
-                .HasMany(c => c.ProteinFoods)
+                .HasMany<ProteinFood>(c => c.ProteinFoods)
                 .WithOne(e => e.RawFoodCategory);
+            modelBuilder.Entity<RawFoodCategory>()
+                .HasMany<CarbFood>(c => c.CarbFoods)
+                .WithOne(e => e.RawFoodCategory);
+            modelBuilder.Entity<RawFoodCategory>()
+                .HasMany<MiscFood>(c => c.MiscFoods)
+                .WithOne(e => e.RawFoodCategory);
+            modelBuilder.Entity<RawFoodCategory>()
+                .HasMany<FatFood>(c => c.FatFoods)
+                .WithOne(e => e.RawFoodCategory);
+
         }
     }
 }

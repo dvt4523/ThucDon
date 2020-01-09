@@ -15,13 +15,15 @@ namespace ThucDon.Models
         [Display(Name="Food Category")]
         public string Name { get; set; }
 
-        public virtual ProteinFood ProteinFood { get; set; }
-        public virtual FatFood FatFood { get; set; }
-        public virtual CarbFood CarbFood { get; set; }
-        public virtual MiscFood MiscFood { get; set; }
+        //public virtual ProteinFood ProteinFood { get; set; }
+        //public virtual FatFood FatFood { get; set; }
+        //public virtual CarbFood CarbFood { get; set; }
+        //public virtual MiscFood MiscFood { get; set; }
 
         public virtual List<ProteinFood> ProteinFoods { get; set; }
-
+        public virtual List<FatFood> FatFoods { get; set; }
+        public virtual List<MiscFood> MiscFoods { get; set; }
+        public virtual List<CarbFood> CarbFoods { get; set; }
 
 
     }
