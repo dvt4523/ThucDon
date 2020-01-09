@@ -19,11 +19,11 @@ namespace ThucDon.Models
         [Required]
         public int Protein { get; set; }
         [Required]
-        public int Fat { get; set; }
+        public double Fat { get; set; }
         [Required]
-        public int Carb { get; set; }
+        public double Carb { get; set; }
         [Required]
-        public int Fiber { get; set; }
+        public double Fiber { get; set; }
 
         [Display(Name = "Food Category")]
         [ForeignKey("FoodCategoryID")]

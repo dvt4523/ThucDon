@@ -42,10 +42,10 @@ namespace ThucDon.Data
                 Carb = 0,
                 Fiber = 0,
                 Name = "Chicken Breast",
-                RawFoodCategory = MiscFoods
+                RawFoodCategory = ProteinFoods
             });
 
-            _db.ProteinFoods.Add(new Models.ProteinFood
+            _db.CarbFoods.Add(new Models.CarbFood
             {
                 Calories = 130,
                 Protein = 2.7,
@@ -53,10 +53,10 @@ namespace ThucDon.Data
                 Carb = 78,
                 Fiber = 1.6,
                 Name = "Rice",
-                RawFoodCategory = MiscFoods
+                RawFoodCategory = CarbFoods
             });
 
-            _db.ProteinFoods.Add(new Models.ProteinFood
+            _db.MiscFoods.Add(new Models.MiscFood
             {
                 Calories = 27,
                 Protein = 1.86,
@@ -166,7 +166,7 @@ namespace ThucDon.Data
                 RawFoodCategory = ProteinFoods
             });
 
-            _db.ProteinFoods.Add(new Models.ProteinFood
+            _db.MiscFoods.Add(new Models.MiscFood
             {
                 Calories = 18,
                 Protein = 0,
@@ -174,10 +174,10 @@ namespace ThucDon.Data
                 Carb = 18,
                 Fiber = 2.2,
                 Name = "Tomato",
-                RawFoodCategory = ProteinFoods
+                RawFoodCategory = MiscFoods
             });
 
-            _db.ProteinFoods.Add(new Models.ProteinFood
+            _db.MiscFoods.Add(new Models.MiscFood
             {
                 Calories = 87,
                 Protein = 1.9,
@@ -185,10 +185,10 @@ namespace ThucDon.Data
                 Carb = 12,
                 Fiber = 1.8,
                 Name = "Potato",
-                RawFoodCategory = ProteinFoods
+                RawFoodCategory = MiscFoods
             });
 
-            _db.ProteinFoods.Add(new Models.ProteinFood
+            _db.MiscFoods.Add(new Models.MiscFood
             {
                 Calories = 20,
                 Protein = 1,
@@ -196,7 +196,7 @@ namespace ThucDon.Data
                 Carb = 5,
                 Fiber = 3,
                 Name = "Eggplant",
-                RawFoodCategory = ProteinFoods
+                RawFoodCategory = MiscFoods
             });
 
             _db.SaveChanges();
