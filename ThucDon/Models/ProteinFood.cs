@@ -10,20 +10,21 @@ namespace ThucDon.Models
     public class ProteinFood
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int FoodID { get; set; }
         [Required]
-        public int Calories { get; set; }
+        public double Calories { get; set; }
         [Required]
         [Display(Name = "Food Name")]
         public string Name { get; set; }
         [Required]
-        public int Protein { get; set; }
+        public double Protein { get; set; }
         [Required]
-        public int Fat { get; set; }
+        public double Fat { get; set; }
         [Required]
-        public int Carb { get; set; }
+        public double Carb { get; set; }
         [Required]
-        public int Fiber { get; set; }
+        public double Fiber { get; set; }
 
         [Display(Name = "Food Category")]
         [ForeignKey("FoodCategoryID")]
