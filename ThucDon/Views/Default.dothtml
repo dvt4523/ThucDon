@@ -102,6 +102,19 @@
                 </div>
             </div>
         </div>
-        
     </div>
+    <img style="vertical-align:middle;border-style: none" class="homepage-background-image designed-for-you-img" src="https://hmp-cdn-dev.qmo.io/home-page/854de626fccd0cd9ffbc0e5a896ef445-Veggie-Fusilli_16x9_Healthy-Meal-Plans.jpg" />
+    <div class="homepage-marble-background" style="display:block; height:1000px;">
+        <div class="container-healthy-homepage homepage-design-for-you">
+            <h2 class="design-for-you-title" style="font-style:normal;">Spciality Meal Plans</h2>
+            <p class="design-for-you-content">
+                If you’re short on time or just want some expert advice to help get 
+                your eating on track, subscribe to our specialty Meal Plans which 
+                have been designed by our in-house dietitian to offer balanced nutrition 
+                each and every week.Vegan? Vegetarian? Gluten-Free? No problem. 
+                We’ve got special meal plans designed no matter what your dietary needs.
+            </p>
+        </div>
+    </div>
+
 </dot:Content>
