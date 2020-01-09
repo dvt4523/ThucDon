@@ -20,6 +20,8 @@ namespace ThucDon.Models
         public virtual CarbFood CarbFood { get; set; }
         public virtual MiscFood MiscFood { get; set; }
 
+        public virtual List<ProteinFood> ProteinFoods { get; set; }
+
 
 
     }

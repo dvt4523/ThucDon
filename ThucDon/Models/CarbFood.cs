@@ -27,6 +27,6 @@ namespace ThucDon.Models
 
         [Display(Name = "Food Category")]
         [ForeignKey("FoodCategoryID")]
-        public virtual RawFoodCategory FoodCategory { get; set; }
+        public virtual RawFoodCategory RawFoodCategory { get; set; }
     }
 }

@@ -18,7 +18,13 @@ namespace ThucDon.Data
         public DbSet<FatFood> FatFoods { get; set; }
         public DbSet<ProteinFood> ProteinFoods { get; set; }
         public DbSet<MiscFood> MiscFoods { get; set; }
-        public DbSet<RawFoodCategory>RawFoodCategories { get; set; }
+        public DbSet<RawFoodCategory> RawFoodCategories { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<RawFoodCategory>()
+                .HasMany(c => c.ProteinFoods)
+                .WithOne(e => e.RawFoodCategory);
+        }
     }
 }
