@@ -2,5 +2,106 @@
 @masterPage Views/MasterPage.dotmaster
 
 <dot:Content ContentPlaceHolderID="MainContent">
-    
+    <div style="margin-bottom: 85px;font-family:Arial, Helvetica, sans-serif" class="container-healthy-homepage">
+        <p class="healthy-title">
+            What does Healthy evenmean?
+        </p>
+        <p class="text-main" style="font-size:22px;">
+            At Healthy Meal Plans, we understand that ‘healthy’ actually means something 
+            different to everyone so we’ve worked tirelessly to ensure that this site offers 
+            options no matter what your taste, cooking experience, or dietary preferences are.
+        </p>
+        <div class="text-center">
+            <img src="" />
+        </div>
+        <div class="row" style="margin-bottom: 85px;">
+            <div class="col-md-4 text-center">
+                <img class="circle-image" src="https://hmp-cdn-dev.qmo.io/home-page/fe1ab3ec002dbd937202d0627363d1c5-oval3.png"
+                     srcset="https://hmp-cdn-dev.qmo.io/home-page/fe1ab3ec002dbd937202d0627363d1c5-oval3.png 1x, https://hmp-cdn-dev.qmo.io/home-page/1cefaebf0a37c609b40051d775f411b0-oval3@2x.png 2x" />
+                <h3 class="healthy-card-title">
+                    Healthy means Cooking at Home
+                </h3>
+                <p class="healthy-card-content">
+                    We believe that the first step to ‘healthy eating’ begins simply
+                    with cooking at home. Knowing what goes into your food is the best way
+                    to get the most out of it.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img class="circle-image" src="https://hmp-cdn-dev.qmo.io/home-page/1a07de048ee90ae374dee211b918c3fd-OvalCopy2.png"
+                     srcset="https://hmp-cdn-dev.qmo.io/home-page/1a07de048ee90ae374dee211b918c3fd-OvalCopy2.png 1x, https://hmp-cdn-dev.qmo.io/home-page/bb9527ac5440b43c3926c72e65b90581-OvalCopy2@2x.png 2x" />
+                <h3 class="healthy-card-title">
+                    Healthy means Real Food
+                </h3>
+                <p class="healthy-card-content">
+                    Our recipes feature nutritious, whole food ingredients that you 
+                    can feel good about and that can easily be found at your local supermarket.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img class="circle-image" src="https://hmp-cdn-dev.qmo.io/home-page/78dde111e00b0f78d483970fba9418b3-oval1.png"
+                     srcset="https://hmp-cdn-dev.qmo.io/home-page/78dde111e00b0f78d483970fba9418b3-oval1.png 1x, https://hmp-cdn-dev.qmo.io/home-page/9bd6c141278550601a68f12811f8df85-oval1@2x.png 2x" />
+                <h3 class="healthy-card-title">
+                    Healthy means Satisfying
+                </h3>
+                <p class="healthy-card-content">
+                    Our recipes are loaded with nutrients, fiber, and protein 
+                    and designed to help you feel nourished and satiated. We believe 
+                    that this is the real secret to eating well.
+                </p>
+            </div>
+        </div>
+    </div>
+    <img style="vertical-align:middle; border-style:none" class="homepage-background-image" src="https://hmp-cdn-dev.qmo.io/home-page/5b04822927c4cb8267cf76b38261331c-howitworks-banner@2x.jpg" />
+    <div class="homepage-marble-background" style="display:block; height:500px;">
+        <div class="homepage-howitwork container-healthy-homepage">
+            <h2 class="howitwork-title" style="font-style:normal">how it works</h2>
+            <div class="row">
+                <div class="text-center col-md-4">
+                    <div class="howitwork-img-wrapper">
+                        <img src="https://hmp-cdn-dev.qmo.io/home-page/cd0e7aec636a596488082d1e4a82a8cd-recipe-book.png" srcset="https://hmp-cdn-dev.qmo.io/home-page/cd0e7aec636a596488082d1e4a82a8cd-recipe-book.png 1x, https://hmp-cdn-dev.qmo.io/home-page/cc81a663adf159027230ceb530dbeecb-recipe-book@2x.png 2x" />
+                    </div>
+                    <h3 class="howitwork-subtitle">
+                        Browse Recipes
+                    </h3>
+                    <p class="howitwork-content">
+                        Healthy Meal Plans features hundreds of delicious recipes for 
+                        every taste and dietary preference. Browse the entire selection 
+                        using our Search and Filter tools and choose the ones that are 
+                        right for you and your family.
+                    </p>
+                </div>
+                <div class="text-center col-md-4">
+                    <div class="howitwork-img-wrapper">
+                        <img src="https://hmp-cdn-dev.qmo.io/home-page/1fa3ee86746cc6e9cc10806baa1dd96a-icon-meal-plan.png" srcset="https://hmp-cdn-dev.qmo.io/home-page/1fa3ee86746cc6e9cc10806baa1dd96a-icon-meal-plan.png 1x, https://hmp-cdn-dev.qmo.io/home-page/57422b6905386776458ca2421f4e5df5-icon-meal-plan@2x.png 2x" />
+                    </div>
+                    <h3 class="howitwork-subtitle">
+                        Design A Meal Plan
+                    </h3>
+                    <p class="howitwork-content">
+                        Use our easy Meal Planning tool to add your recipes to 
+                        your weekly meal plan by day and meal. It’s as simple 
+                        as dragging and dropping. You can add as many recipes 
+                        as you’d like and track your daily calorie intake while 
+                        you’re at it.
+                    </p>
+                </div>
+                <div class="text-center col-md-4">
+                    <div class="howitwork-img-wrapper">
+                        <img src="https://hmp-cdn-dev.qmo.io/home-page/efad4c8356311169a228019c31c6d70d-list-icon.png" srcset="https://hmp-cdn-dev.qmo.io/home-page/efad4c8356311169a228019c31c6d70d-list-icon.png 1x, https://hmp-cdn-dev.qmo.io/home-page/d85bbc2e923ba12903d2a7cd7c12a355-list-icon@2x.png 2x" />
+                    </div>
+                    <h3 class="howitwork-subtitle">
+                        Create a Grocery List
+                    </h3>
+                    <p class="howitwork-content">
+                        When you’re ready to hit the supermarket, simply click 
+                        Create Grocery List to generate a complete list of ingredients 
+                        you’ll need to get cooking. You can set the number of servings, 
+                        add any extras to your list, and check items off as you shop.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 </dot:Content>

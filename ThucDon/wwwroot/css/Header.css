@@ -3,6 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+.healthy-title {
+    color: #78C04A;
+    font-size: 34px;
+    font-weight:bold;
+    line-height: 48px;
+    text-align:center;
+}
+.healthy-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #77c14b;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.healthy-card-content {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #6c757d;
+}
+.text-main {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #6c757d;
+}
+.circle-image{
+    max-width:100%;
+    vertical-align:middle;
+    border-style:none;
+}
 .diet-type-btn {
     margin:20px;
 }
@@ -1172,4 +1205,75 @@ Main components
     font-size: 30px;
     font-weight: 400;
     margin: 50px 0;
+}
+
+.container-healthy-homepage{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left:auto;
+}
+@media (min-width: 1200px) {
+    .container-healthy-homepage {
+        max-width:1140px;
+    }
+}
+@media (min-width: 992) {
+    .container-healthy-homepage {
+        max-width:960px;
+    }
+}
+/*@media (min-width: 768px) {
+    .container-healthy-homepage {
+        max-width:720px;
+    }
+}
+@media (min-width: 576px) {
+    .container-healthy-homepage {
+        max-width: 540px;
+    }
+}*/
+.homepage-background-image{
+    width: 100%;
+    max-width: 100%;
+    min-height: 400px;
+    max-height: 650px;
+    object-fit: cover;
+}
+
+.homepage-marble-background {
+    background: url("../image/marble-background.jpg");
+}
+.homepage-howitwork {
+    background-color: #A7CC65;
+    color: #fff;
+    padding:35px;
+    position:relative;
+    left: 0;
+    right: 0;
+}
+.howitwork-title{
+    text-transform:uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+.howitwork-img-wrapper{
+    height: 120px;
+    position:relative;
+    margin-bottom:15px;
+}
+.howitwork-subtitle{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.howitwork-content{
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-weight: 300;
 }
