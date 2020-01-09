@@ -14,6 +14,7 @@ namespace ThucDon.ViewModels
         public IEnumerable<ProteinFood> ProteinFoods { get; set; }
         public IEnumerable<FatFood> FatFoods { get; set; }
         public IEnumerable<MiscFood> MiscFoods { get; set; }
+        public int Calories { get; set; }
 
         private readonly RawFoodServices _rawFoodService;
 
@@ -21,7 +22,7 @@ namespace ThucDon.ViewModels
         {
             _rawFoodService = rawFoodService;
         }
-
+        public string ProteinName { get; set; }
         public CarbFood RandomCarb { get; set; }
         public ProteinFood RandomProtein { get; set; }
         public FatFood RandomFat { get; set; }
@@ -33,6 +34,7 @@ namespace ThucDon.ViewModels
            RandomProtein = _rawFoodService.GetRandomProtein();
            RandomFat = _rawFoodService.GetRandomFat();
            RandomMisc = _rawFoodService.GetRandomMisc();
+            ProteinName = RandomProtein.Name;
         }
 
     }

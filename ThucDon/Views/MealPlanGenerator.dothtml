@@ -5,43 +5,27 @@
     <div class="container" style="width:350px; margin-top:30px;">
         <form class="form-horizontal">
             <div class="form-group">
-                <label class="control-label col-md-3">Label 1: </label>
+                <label class="control-label col-md-3">Amount of Calories you want to eat: </label>
                 <div class="col-md-9" Validator.Value="{value: Calories}">
-                    <dot:TextBox class="form-control" Text="{value: CarbFoods}"></dot:TextBox>
+                    <dot:TextBox class="form-control" Text="{value: Calories}"></dot:TextBox>
                 </div>
             </div>
-            <div class="form-group">
-                <label class="control-label col-md-3">Label 1: </label>
-                <div class="col-md-9" Validator.Value="{value: CarbFoods}">
-                    <dot:TextBox class="form-control" Text="{value: CarbFoods}"></dot:TextBox>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label col-md-3">Label 2: </label>
-                <div class="col-md-9" Validator.Value="{value: ProteinFoods}">
-                    <dot:TextBox class="form-control" Text="{value: ProteinFoods}"></dot:TextBox>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label col-md-3">Label 3: </label>
-                <div class="col-md-9" Validator.Value="{value: FatFoods}">
-                    <dot:TextBox class="form-control" Text="{value: FatFoods}"></dot:TextBox>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label col-md-3">Label 4: </label>
-                <div class="col-md-9" Validator.Value="{value: MiscFoods}">
-                    <dot:TextBox class="form-control" Text="{value: MiscFoods}"></dot:TextBox>
-                </div>
-            </div>
+                        
             <p>
                 <dot:RadioButton CheckedValue="1" Text="Ketogenic" />
-                <dot:RadioButton CheckedValue="1" Text="Standard" />
-                <dot:RadioButton CheckedValue="1" Text="Low-carb" />
+                <dot:RadioButton CheckedValue="2" Text="Standard" />
+                <dot:RadioButton CheckedValue="3" Text="Low-carb" />
             </p>
 
             <div class="form-group">
-                <input type="submit" value="Submit" class="btn btn-default" />
+                <dot:Button Text="Generate Meal Plan" Click="{command:Generate()}" Validation.Enabled="false">
+                </dot:Button>
+            </div>
+
+            <div class="form-group" Visible="{value: RandomProtein!= null}">
+                <p>{{value: ProteinName}}</p>
+                <p>Amount: </p>
+
             </div>
         </form>
     </div>
