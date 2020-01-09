@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.diet-type-btn {
+    margin:20px;
+}
 .backgroundm {
     position: fixed;
 }

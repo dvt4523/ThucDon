@@ -6,6 +6,12 @@
         <form class="form-horizontal">
             <div class="form-group">
                 <label class="control-label col-md-3">Label 1: </label>
+                <div class="col-md-9" Validator.Value="{value: Calories}">
+                    <dot:TextBox class="form-control" Text="{value: CarbFoods}"></dot:TextBox>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-3">Label 1: </label>
                 <div class="col-md-9" Validator.Value="{value: CarbFoods}">
                     <dot:TextBox class="form-control" Text="{value: CarbFoods}"></dot:TextBox>
                 </div>
@@ -28,18 +34,12 @@
                     <dot:TextBox class="form-control" Text="{value: MiscFoods}"></dot:TextBox>
                 </div>
             </div>
-            <label>
-                <input type="radio" data-bind="" />
-                Ketogenic
-            </label>
-            <label>
-                <input type="radio" data-bind="" />
-                Standard
-            </label>
-            <label>
-                <input type="radio" data-bind="" />
-                Low-carb
-            </label>
+            <p>
+                <dot:RadioButton CheckedValue="1" Text="Ketogenic" />
+                <dot:RadioButton CheckedValue="1" Text="Standard" />
+                <dot:RadioButton CheckedValue="1" Text="Low-carb" />
+            </p>
+
             <div class="form-group">
                 <input type="submit" value="Submit" class="btn btn-default" />
             </div>
