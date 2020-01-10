@@ -11,6 +11,10 @@
             different to everyone so we’ve worked tirelessly to ensure that this site offers 
             options no matter what your taste, cooking experience, or dietary preferences are.
         </p>
+        <dot:RouteLink RouteName="FoodList" contextmenu="FoodList">
+            <button class="btn" style="background-color:#77c14b;color:white;border-color:#77c14b">Learn More</button>
+        </dot:RouteLink>
+        <dot:RouteLink class="navarcti" RouteName="Default" contextmenu="Default">Home</dot:RouteLink>
         <div class="text-center">
             <img src="" />
         </div>
@@ -104,7 +108,8 @@
         </div>
     </div>
     <img style="vertical-align:middle;border-style: none" class="homepage-background-image designed-for-you-img" src="https://hmp-cdn-dev.qmo.io/home-page/854de626fccd0cd9ffbc0e5a896ef445-Veggie-Fusilli_16x9_Healthy-Meal-Plans.jpg" />
-    <div class="homepage-marble-background" style="display:block; height:1000px;">
+    <div class="homepage-marble-background" style="        display: block;
+        height: 500px;">
         <div class="container-healthy-homepage homepage-design-for-you">
             <h2 class="design-for-you-title" style="font-style:normal;">Spciality Meal Plans</h2>
             <p class="design-for-you-content">
