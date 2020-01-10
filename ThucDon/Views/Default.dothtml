@@ -14,7 +14,6 @@
         <dot:RouteLink RouteName="FoodList" contextmenu="FoodList">
             <button class="btn" style="background-color:#77c14b;color:white;border-color:#77c14b">Learn More</button>
         </dot:RouteLink>
-        <dot:RouteLink class="navarcti" RouteName="Default" contextmenu="Default">Home</dot:RouteLink>
         <div class="text-center">
             <img src="" />
         </div>

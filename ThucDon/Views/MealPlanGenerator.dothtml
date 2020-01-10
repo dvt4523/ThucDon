@@ -2,7 +2,7 @@
 @masterPage Views/MasterPage.dotmaster
 
 <dot:Content ContentPlaceHolderID="MainContent">
-    <div class="container" style="width:350px; margin-top:30px;">
+    <div class="container" style="width:500px; margin-top:30px;">
         <form class="form-horizontal">
             <div class="form-group">
                 <label class="control-label col-md-8" style="text-align:left;">Amount of Calories you want to eat: </label>
@@ -18,26 +18,69 @@
             </p>
 
             <div class="form-group">
-                <dot:Button Text="Generate Meal Plan" Click="{command:Generate()}" Validation.Enabled="false">
+                <dot:Button class="btn" style="background-color:#77c14b;color:white;border-color:#77c14b;max-width:230px;" Text="Generate Meal Plan" Click="{command:Generate()}" Validation.Enabled="false">
                 </dot:Button>
             </div>
 
-            <div class="form-group" Visible="{value: RandomProtein!= null}">
+            <table class="table-gen" Visible="{value: RandomProtein != null}" style="margin-bottom:30px;">
+                <tr class="tr-gen" style="height:63px;background-color:#77c14b;color:white;font-size:20px;">
+                    <div>
+                        <th style="text-align:center" class="th-gen">Protein Name</th>
+                        <th style="text-align:center" class="th-gen">Amount</th>
+                    </div>
+                </tr>
+                <tr class="tr-gen" style="height:63px" Visible="{value: RandomProtein != null}">
+                        <td class="td-gen">{{value: ProteinName}}</td>
+                        <td class="td-gen">{{value: ProteinAmount}}</td>
+                </tr>
+                <tr class="tr-gen" style="height:63px" Visible="{value: RandomFat != null}">
+                    <div >
+                        <td class="td-gen">{{value: FatName}}</td>
+                        <td class="td-gen">{{value: FatAmount}}</td>
+                    </div>
+                </tr>
+                <tr class="tr-gen" style="height:63px" Visible="{value: RandomCarb != null}">
+                    <div >
+                        <td class="td-gen">{{value: CarbName}}</td>
+                        <td class="td-gen">{{value: CarbAmount}}</td>
+                    </div>
+                </tr>
+                <tr class="tr-gen" style="height:63px" Visible="{value: MiscAmount > 0}">
+                    <div >
+                        <td class="td-gen">{{value: MiscName}}</td>
+                        <td class="td-gen">{{value: MiscAmount}}</td>
+                    </div>
+                </tr>
+            </table>
+
+            <%--<div class="" Visible="{value: RandomProtein!= null}">
                 <p>{{value: ProteinName}}</p>
                 <p>Amount: {{value: ProteinAmount}} grams</p>
             </div>
-            <div class="form-group" Visible="{value: RandomFat!= null}">
+            <div class="" Visible="{value: RandomFat!= null}">
                 <p>{{value: FatName}}</p>
                 <p>Amount: {{value: FatAmount}} grams</p>
             </div>
-            <div class="form-group" Visible="{value: RandomCarb!= null}">
+            <div class="" Visible="{value: RandomCarb!= null}">
                 <p>{{value: CarbName}}</p>
                 <p>Amount: {{value: CarbAmount}} grams</p>
             </div>
-            <div class="form-group" Visible="{value: MiscAmount> 0}">
+            <div class="" Visible="{value: MiscAmount> 0}">
                 <p>{{value: MiscName}}</p>
                 <p>Amount: {{value: MiscAmount}} grams</p>
             </div>
         </form>
+        <table class="table-gen">
+            <tr class="tr-gen">
+                <th class="th-gen">Protein</th>
+                <th class="td-gen">Contact</th>
+                <th class="td-gen">Country</th>
+            </tr>
+            <tr class="tr-gen">
+                <td class="td-gen">Alfreds Futterkiste</td>
+                <td class="td-gen">Maria Anders</td>
+                <td class="td-gen">Germany</td>
+            </tr>           
+        </table>--%>
     </div>
 </dot:Content>

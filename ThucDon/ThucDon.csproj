@@ -8,6 +8,10 @@
     <None Remove="**/*.dothtml;**/*.dotmaster;**/*.dotcontrol" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="Migrations\20200109164907_Migration1.cs" />
+    <Compile Remove="Migrations\20200109164907_Migration1.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="dotvvm_serialized_config.json.tmp" />
   </ItemGroup>
   <ItemGroup>
