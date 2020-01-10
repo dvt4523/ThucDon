@@ -188,6 +188,28 @@ namespace ThucDon.Data
                 RawFoodCategory = CarbFoods
             });
 
+            _db.FatFoods.Add(new Models.FatFood
+            {
+                Calories = 541,
+                Protein = 37,
+                Fat = 42,
+                Carb = 1.4,
+                Fiber = 0,
+                Name = "Bacon",
+                RawFoodCategory = FatFoods
+            });
+
+            _db.FatFoods.Add(new Models.FatFood
+            {
+                Calories = 471,
+                Protein = 26,
+                Fat = 39,
+                Carb = 0,
+                Fiber = 0,
+                Name = "Duck meat",
+                RawFoodCategory = FatFoods
+            });
+
             _db.MiscFoods.Add(new Models.MiscFood
             {
                 Calories = 20,
@@ -230,6 +252,94 @@ namespace ThucDon.Data
                 Fiber = 3.3,
                 Name = "Cashews",
                 RawFoodCategory = FatFoods
+            });
+
+            _db.ProteinFoods.Add(new Models.ProteinFood
+            {
+                Calories = 187,
+                Protein = 7,
+                Fat = 14,
+                Carb = 6,
+                Fiber = 0,
+                Name = "Liver duck",
+                RawFoodCategory = ProteinFoods
+            });
+
+            _db.ProteinFoods.Add(new Models.ProteinFood
+            {
+                Calories = 269,
+                Protein = 26,
+                Fat = 5,
+                Carb = 0,
+                Fiber = 0,
+                Name = "Black chicken",
+                RawFoodCategory = ProteinFoods
+            });
+
+            _db.ProteinFoods.Add(new Models.ProteinFood
+            {
+                Calories = 110,
+                Protein = 17,
+                Fat = 4,
+                Carb = 0,
+                Fiber = 0,
+                Name = "Quail legs",
+                RawFoodCategory = ProteinFoods
+            });
+
+            _db.MiscFoods.Add(new Models.MiscFood
+            {
+                Calories = 25,
+                Protein = 1,
+                Fat = 0,
+                Carb = 4,
+                Fiber = 2,
+                Name = "Cauliflower",
+                RawFoodCategory = MiscFoods
+            });
+
+            _db.MiscFoods.Add(new Models.MiscFood
+            {
+                Calories = 25,
+                Protein = 1,
+                Fat = 0,
+                Carb = 5,
+                Fiber = 3.2,
+                Name = "Cabbage",
+                RawFoodCategory = MiscFoods
+            });
+
+            _db.MiscFoods.Add(new Models.MiscFood
+            {
+                Calories = 68,
+                Protein = 2,
+                Fat = 1,
+                Carb = 14,
+                Fiber = 5.4,
+                Name = "Guava",
+                RawFoodCategory = MiscFoods
+            });
+
+            _db.CarbFoods.Add(new Models.CarbFood
+            {
+                Calories = 142,
+                Protein = 0,
+                Fat = 0,
+                Carb = 35,
+                Fiber = 2.7,
+                Name = "Pumpkin",
+                RawFoodCategory = CarbFoods
+            });
+
+            _db.CarbFoods.Add(new Models.CarbFood
+            {
+                Calories = 100,
+                Protein = 4,
+                Fat = 1,
+                Carb = 20,
+                Fiber = 0,
+                Name = "Toast",
+                RawFoodCategory = CarbFoods
             });
 
             _db.SaveChanges();
