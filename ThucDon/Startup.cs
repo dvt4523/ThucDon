@@ -49,6 +49,7 @@ namespace ThucDon
             // use DotVVM
             var dotvvmConfiguration = app.UseDotVVM<DotvvmStartup>(env.ContentRootPath);
             dotvvmConfiguration.AssertConfigurationIsValid();
+            //For Database seeding
             dbInitializer.Initialize();
             // use static files
             app.UseStaticFiles(new StaticFileOptions

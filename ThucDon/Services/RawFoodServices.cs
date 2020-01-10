@@ -31,5 +31,24 @@ namespace ThucDon.Services
         {
             return _db.MiscFoods.OrderBy(r => Guid.NewGuid()).Take(1).FirstOrDefault();
         }
+
+        public double CalculateFat(FatFood fatFood, double calories)
+        {
+            return Math.Round(calories * 0.3 / 9 * 100 / fatFood.Fat,2);
+        }
+        public double CalculateProtein(ProteinFood proteinFood, double calories, double difference)
+        {
+            return Math.Round((calories * 0.2 / 4 - difference) * 100 / proteinFood.Protein,2);
+        }
+        public double CalculateCarb(CarbFood carbFood, double calories, double difference)
+        {
+            return Math.Round((calories * 0.6 / 4 - difference) * 100 / carbFood.Carb,2);
+        }
+        public double CalculateMisc(MiscFood miscFood, double difference)
+        {
+            if (13 - difference < 0) return 0;
+            else
+                return Math.Round((13 - difference) * 100 / miscFood.Fiber,2);
+        }
     }
 }

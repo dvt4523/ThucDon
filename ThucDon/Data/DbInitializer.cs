@@ -113,9 +113,9 @@ namespace ThucDon.Data
 
             _db.ProteinFoods.Add(new Models.ProteinFood
             {
-                Calories = 234,
-                Protein = 120,
-                Fat = 30,
+                Calories = 262,
+                Protein = 24,
+                Fat = 18,
                 Carb = 1,
                 Fiber = 0,
                 Name = "Mackerel",
@@ -125,41 +125,41 @@ namespace ThucDon.Data
             _db.ProteinFoods.Add(new Models.ProteinFood
             {
                 Calories = 120,
-                Protein = 30,
-                Fat = 1,
+                Protein = 20,
+                Fat = 3.8,
                 Carb = 0,
                 Fiber = 0,
-                Name = "Tuna",
+                Name = "Salmon",
                 RawFoodCategory = ProteinFoods
             });
 
-            _db.ProteinFoods.Add(new Models.ProteinFood
+            _db.CarbFoods.Add(new Models.CarbFood
             {
-                Calories = 148,
-                Protein = 28,
+                Calories = 89,
+                Protein = 1.1,
                 Fat = 4,
-                Carb = 0,
+                Carb = 23,
                 Fiber = 0,
-                Name = "Steak",
-                RawFoodCategory = ProteinFoods
+                Name = "Banana",
+                RawFoodCategory = CarbFoods
+            });
+
+            _db.CarbFoods.Add(new Models.CarbFood
+            {
+                Calories = 68,
+                Protein = 2.4,
+                Fat = 1.4,
+                Carb = 12,
+                Fiber = 1.7,
+                Name = "Oats",
+                RawFoodCategory = CarbFoods
             });
 
             _db.ProteinFoods.Add(new Models.ProteinFood
             {
-                Calories = 348,
-                Protein = 31,
-                Fat = 23,
-                Carb = 0,
-                Fiber = 0,
-                Name = "Beef Shredded",
-                RawFoodCategory = ProteinFoods
-            });
-
-            _db.ProteinFoods.Add(new Models.ProteinFood
-            {
-                Calories = 230,
-                Protein = 13,
-                Fat = 15,
+                Calories = 242,
+                Protein = 27,
+                Fat = 14,
                 Carb = 60,
                 Fiber = 0,
                 Name = "Pork",
@@ -171,21 +171,21 @@ namespace ThucDon.Data
                 Calories = 18,
                 Protein = 0,
                 Fat = 0,
-                Carb = 18,
+                Carb = 5.8,
                 Fiber = 2.2,
                 Name = "Tomato",
                 RawFoodCategory = MiscFoods
             });
 
-            _db.MiscFoods.Add(new Models.MiscFood
+            _db.CarbFoods.Add(new Models.CarbFood
             {
                 Calories = 87,
                 Protein = 1.9,
                 Fat = 0,
-                Carb = 12,
+                Carb = 20,
                 Fiber = 1.8,
                 Name = "Potato",
-                RawFoodCategory = MiscFoods
+                RawFoodCategory = CarbFoods
             });
 
             _db.MiscFoods.Add(new Models.MiscFood
@@ -197,6 +197,39 @@ namespace ThucDon.Data
                 Fiber = 3,
                 Name = "Eggplant",
                 RawFoodCategory = MiscFoods
+            });
+
+            _db.FatFoods.Add(new Models.FatFood
+            {
+                Calories = 353,
+                Protein = 25,
+                Fat = 33,
+                Carb = 1.3,
+                Fiber = 0,
+                Name = "Cheese",
+                RawFoodCategory = FatFoods
+            });
+
+            _db.FatFoods.Add(new Models.FatFood
+            {
+                Calories = 160,
+                Protein = 2,
+                Fat = 15,
+                Carb = 9,
+                Fiber = 7,
+                Name = "Avocado",
+                RawFoodCategory = FatFoods
+            });
+
+            _db.FatFoods.Add(new Models.FatFood
+            {
+                Calories = 553,
+                Protein = 18,
+                Fat = 44,
+                Carb = 30,
+                Fiber = 3.3,
+                Name = "Cashews",
+                RawFoodCategory = FatFoods
             });
 
             _db.SaveChanges();

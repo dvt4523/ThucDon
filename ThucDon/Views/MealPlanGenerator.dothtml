@@ -10,7 +10,7 @@
                     <dot:TextBox class="form-control" Text="{value: Calories}"></dot:TextBox>
                 </div>
             </div>
-                        
+
             <p>
                 <dot:RadioButton CheckedValue="1" Text="Ketogenic" />
                 <dot:RadioButton CheckedValue="2" Text="Standard" />
@@ -24,8 +24,19 @@
 
             <div class="form-group" Visible="{value: RandomProtein!= null}">
                 <p>{{value: ProteinName}}</p>
-                <p>Amount: </p>
-
+                <p>Amount: {{value: ProteinAmount}} grams</p>
+            </div>
+            <div class="form-group" Visible="{value: RandomFat!= null}">
+                <p>{{value: FatName}}</p>
+                <p>Amount: {{value: FatAmount}} grams</p>
+            </div>
+            <div class="form-group" Visible="{value: RandomCarb!= null}">
+                <p>{{value: CarbName}}</p>
+                <p>Amount: {{value: CarbAmount}} grams</p>
+            </div>
+            <div class="form-group" Visible="{value: MiscAmount> 0}">
+                <p>{{value: MiscName}}</p>
+                <p>Amount: {{value: MiscAmount}} grams</p>
             </div>
         </form>
     </div>
