@@ -1,0 +1,312 @@
+﻿@viewModel ThucDon.ViewModels.SidePageViewModel, ThucDon
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Thuc Don</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/Header.css" />
+    <link rel="stylesheet" href="~/css/Nav-hover.css" />
+    <link rel="stylesheet" href="~/css/excarousel.css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"
+            integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
+            crossorigin="anonymous" type="text/javascript">
+    </script>
+    <script src="~/js/jquery.js" type="text/javascript"></script>
+    <script src="~/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="~/js/hambergerss.js" type="text/javascript"></script>
+    <script src="~/js/angular.js" type="text/javascript"></script>
+    <script src="~/js/bootstrap.min.js" type="text/javascript"></script>
+    <meta charset="utf-8" />
+    <title>Thuc Don</title>
+</head>
+<body>
+    <div class="container-fluid" style="padding-left: 0;padding-right: 0;">
+        <div class="row header1">
+            <div class="col-md-3">
+                <a href="#" class="icon">MY ACCOUNT</a>
+                <a href="#" class="icon">LOG IN</a>
+                <a href="#" class="icon">REGISTER</a>
+
+            </div>
+            <div class="col-md-2 col-md-offset-6 header_social">
+                <a href="#" class="icon icon-twitter"></a>
+                <a href="#" class="icon icon-facebook"></a>
+                <a href="#" class="icon icon-youtube"></a>
+                <a href="#" class="icon icon-google-plus"></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-default nav-new" role="navigation" style="height:90px;">
+            <div class="navbar-header">
+                <div class="navlogo">
+                    <a href="#"><img src="../image/logo.png" alt="Thuc Don" style="height:70px; margin-top:-30px;"></a>
+                </div>
+            </div>
+            <ul id="top-menu" class="nav navbar-nav Center centerlinks">
+                <li class="current_page_item navli level_2_main-home">
+                    <dot:RouteLink class="navarcti" RouteName="Default" contextmenu="Default">Home</dot:RouteLink>
+                    <ul class=" level_2_big level_2_big_home" style="display: block; overflow: hidden;">
+                        <li><a href="#">Body fat calculator</a></li>
+                        <li><dot:RouteLink RouteName="AddFoodData" contextmenu="Add Food Data">Add New Food Data</dot:RouteLink></li>
+                        <li><dot:RouteLink RouteName="MealPlanGenerator" contextmenu="Meal Plan Generator">Meal Plan Generator</dot:RouteLink></li>
+
+                    </ul>
+                </li>
+                <li class="navli level_2_main-sale">
+                    <a class="navarcti" href="#">Exercise List</a>
+                    <ul class="level_2_big level_2_big-sale" style="margin-left:450px;">
+                        <li>
+                            <div class="level_2_sale col-sm-4 sale-column">
+                                <div class="sale-product-img">
+                                    <a href="#"><img src="https://i.gyazo.com/5ec0b29c324106210df064d5d76e386f.png" alt="Champion Woven Slither"></a>
+                                </div>
+                                <div class="product-sale-name">
+                                    <h4><a href="#">Chest</a> </h4>
+                                </div>
+                            </div>
+                            <div class="level_2_sale col-sm-4 sale-column">
+                                <div class="sale-product-img">
+                                    <a href="#"><img src="https://i.gyazo.com/5ce0d042e6bd6e44200b294b6d13bf37.png" alt="KEDS Champion"></a>
+                                </div>
+                                <div class="product-sale-name">
+                                    <h4><a href="#">Abs</a> </h4>
+                                </div>
+                            </div>
+                            <div class="level_2_sale col-sm-4 sale-column">
+                                <div class="sale-product-img">
+                                    <a href="#"><img src="https://i.gyazo.com/f7a0ab69a1444fcd6b09745c13d74d03.png" alt="KEDS Champion Americana"></a>
+                                </div>
+                                <div class="product-sale-name">
+                                    <h4><a href="#">Upper Legs</a> </h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="level_2_main-blog navli">
+                    <a class="navarcti" href="#">blog</a>
+                    <ul class=" level_2_big level_2_big-blog" style="margin-left:90px;">
+                        <li>
+                            <div class="level_2_blog">
+
+                                <div class="column_item column_item__1  item_with_img col-sm-4">
+                                    <div class="blog_img1 blog_img"><img src="https://img.theculturetrip.com/768x/wp-content/uploads/2015/02/warm-cumin-roasted-carrot-red-onion-and-lentil-salad.jpg" alt="Deliciously Ella"></div>
+
+                                    <div class="blog_info">
+                                        <div class="info_contain">
+                                            <h3 class="blog_title blog_title1"><a href="#">Deliciously Ella</a></h3>
+
+                                            <span class="blog_date">13 Feb. 2019</span>
+
+                                            <div class="blog_content">
+                                                Winner of a coveted Red Magazine Blogger Award, Deliciously Ella documents...
+                                            </div>
+
+                                            <div class="new-btn btn-content">
+                                                <a href="#" class="btn btn-effect btn-1">
+                                                    <svg>
+                                                        <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                                    </svg>
+                                                    read more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column_item column_item__2  item_with_img col-sm-4">
+                                    <div class="blog_img2 blog_img"><img src="https://hhp-blog.s3.amazonaws.com/2017/10/iStock-646863852.jpg" alt="We never stop, achieving this goal."></div>
+                                    <div class="blog_info">
+                                        <div class="info_contain">
+                                            <h3 class="blog_title"><a href="/blogs/blog/we-never-stop-achieving-this-goal">A doctor’s recipe for...</a></h3>
+
+                                            <span class="blog_date">13 Feb. 2019</span>
+
+                                            <div class="blog_content">
+                                                When I look at the typical breakfast food offerings at many restaurants, supermarkets, and food trucks...
+                                            </div>
+
+                                            <div class="new-btn btn-content">
+                                                <a href="#" class="btn btn-effect btn-2">
+                                                    <svg>
+                                                        <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                                    </svg>
+                                                    read more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="column_item column_item__3 column_item__last item_with_img col-sm-4">
+                                    <div class="blog_img3 blog_img"><img src="https://i2.wp.com/theeverydayrd.com/wp-content/uploads/2015/07/splenda_living_blog_healthy_meal_planning_ideas.jpg?resize=566%2C376&ssl=1" alt="We’d love to hear your feedback on our product."></div>
+
+                                    <div class="blog_info">
+                                        <div class="info_contain">
+                                            <h3 class="blog_title"><a href="/blogs/blog/we-d-love-to-hear-your-feedback-on-our-product">Easy Planning Healthy Meal...</a></h3>
+                                            <span class="blog_date">13 Feb. 2019</span>
+                                            <div class="blog_content">
+                                                Benjamin Franklin once wrote, “...in this world nothing can be said to be certain, except death and taxes...
+                                            </div>
+                                            <div class="new-btn btn-content">
+                                                <a href="#" class="btn btn-effect btn-3">
+                                                    <svg>
+                                                        <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                                                    </svg>
+                                                    read more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navli">
+                    <dot:RouteLink class="navarcti" RouteName="AboutUs" contextmenu="About Us">About Us</dot:RouteLink>
+                </li>
+                <li class="navli">
+                    <dot:RouteLink class="navarcti" RouteName="ContactUs" contextmenu="Contact Us">Contact Us</dot:RouteLink>
+                </li>
+            </ul>
+
+            <form class="navbar-form s-right" role="search" style="margin-top:-15px;">
+                <div class="search_box">
+                    <div class="input-group s-input">
+                        <input type="text" class="form-control s-box" placeholder="Search page">
+                        <div class="input-group-btn">
+                            <button class="s-btn btn-search-box btn btn-default " type="submit">
+                                <i>Search</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </nav>
+    </div>
+
+    <dot:ContentPlaceHolder ID="SideContent" />
+
+    <main class="cd-main-content">
+        <div class="cd-fixed-bg cd-bg-2">
+            <div class="enter_email">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="newsletter">Newsletter</p>
+                        <p class="title">
+                            Subscribe to the Healthy eating mailing list
+                            to receive updates on new arrivals, special offers and other
+                            discount information.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <form style="margin-top: 70px; float:right;">
+                            <div class="input-group sua-input-group">
+                                <input type="email" class="form-control sua-form-control" placeholder="Enter your email">
+                                <div class="input-group-btn">
+                                    <input class="btn btn-default submit sua-submit" value="Subscribe" type="submit">
+                                    Subscribe
+                                    </input>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="color:white;width: 90%;margin:auto;padding-top: 30px;padding-bottom: 100px;">
+                <div class="col-md-3 col-sm-6">
+                    <h6 class="footer">EXPERT ADVICE</h6>
+                    <ul class="line-height">
+                        <a href="#" class="footer_link"><li>Allergies, intolerances</li></a>
+                        <a href="#" class="footer_link"><li>Anxiety</li></a>
+                        <a href="#" class="footer_link"><li>Ask the experts</li></a>
+                        <a href="#" class="footer_link"><li>Asthma</li></a>
+                        <a href="#" class="footer_link"><li>Babies's health</li></a>
+                        <a href="#" class="footer_link"><li>Children's health</li></a>
+                        <a href="#" class="footer_link"><li>Cholesterol</li></a>
+                        <a href="#" class="footer_link"><li>Coeliac Disease</li></a>
+                        <a href="#" class="footer_link"><li>Diabetes toolkit</li></a>
+                        <a href="#" class="footer_link"><li>Exercise</li></a>
+                        <a href="#" class="footer_link"><li>FODMAPs toolkit</li></a>
+                        <a href="#" class="footer_link"><li>Fussy eaters</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h6 class="footer">HEALTHY RECIPES</h6>
+                    <ul class="line-height">
+                        <a href="#" class="footer_link"><li>Baking</li></a>
+                        <a href="#" class="footer_link"><li>Beef</li></a>
+                        <a href="#" class="footer_link"><li>Chicken</li></a>
+                        <a href="#" class="footer_link"><li>Diabetes-friendly</li></a>
+                        <a href="#" class="footer_link"><li>Family favourites</li></a>
+                        <a href="#" class="footer_link"><li>Fish</li></a>
+                        <a href="#" class="footer_link"><li>Bluten free</li></a>
+                        <a href="#" class="footer_link"><li>High fibre</li></a>
+                        <a href="#" class="footer_link"><li>Kids in the kitchen</li></a>
+                        <a href="#" class="footer_link"><li>Lamb</li></a>
+                        <a href="#" class="footer_link"><li>Low FODMAP</li></a>
+                    </ul>
+
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h6 class="footer">TERMS AND CONDITIONS</h6>
+                    <ul class="footer_link line-height">
+                        <a href="#" class="footer_link"><li>Cookie policy</li></a>
+                        <a href="#" class="footer_link"><li>Privacy Policy</li></a>
+                        <a href="#" class="footer_link"><li>Terms of use</li></a>
+                    </ul>
+                    <h6 class="footer">ABOUT US</h6>
+                    <ul class="footer_link line-height">
+                        <a href="#" class="footer_link"><li>Our team</li></a>
+                        <a href="#" class="footer_link"><li>Help with this website</li></a>
+                        <a href="#" class="footer_link"><li>About healthy food guide</li></a>
+                        <a href="#" class="footer_link"><li>Research</li></a>
+                        <a href="#" class="footer_link"><li>References</li></a>
+                        <a href="#" class="footer_link"><li>Our recipes explained</li></a>
+                        <a href="#" class="footer_link"><li>How much do i need to eat?</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <h6 class="footer">PAGE INFORMATION</h6>
+                    <div class="contact_address">
+                        <div class="fleft">
+                            <i class="icon-location-arrow"></i>
+                        </div>
+                        <div class="fright">
+                            <span style="color:#3ad1d1">MY COMPANY:</span><br>
+                            <span class="contact"><a href="#" class="footer_link">4578 MARMORA ROAD, GLASGOW D04 89GR</a></span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="contact_phone">
+                        <div class="fleft">
+                            <i class="icon-phone"></i>
+                        </div>
+                        <div class="fright">
+                            <span style="color:#3ad1d1">CALL US FOR FREE:</span><br>
+                            <span class="contact"><a href="#" class="footer_link">0123-456-789</a></span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="contact_email">
+                        <div class="fleft">
+                            <i class="icon-envelope"></i>
+                        </div>
+                        <div class="fright">
+                            <span style="color:#3ad1d1">EMAIL:</span><br>
+                            <a href="#" class="footer_link">infoAMN@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
+
+

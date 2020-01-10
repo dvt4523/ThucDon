@@ -5,8 +5,8 @@
     <div class="container" style="width:350px; margin-top:30px;">
         <form class="form-horizontal">
             <div class="form-group">
-                <label class="control-label col-md-3">Amount of Calories you want to eat: </label>
-                <div class="col-md-9" Validator.Value="{value: Calories}">
+                <label class="control-label col-md-8" style="text-align:left;">Amount of Calories you want to eat: </label>
+                <div class="col-md-4" Validator.Value="{value: Calories}">
                     <dot:TextBox class="form-control" Text="{value: Calories}"></dot:TextBox>
                 </div>
             </div>
