@@ -25,30 +25,50 @@
             <table class="table-gen" Visible="{value: RandomProtein != null}" style="margin-bottom:30px;">
                 <tr class="tr-gen" style="height:63px;background-color:#77c14b;color:white;font-size:20px;">
                     <div>
-                        <th style="text-align:center" class="th-gen">Protein Name</th>
-                        <th style="text-align:center" class="th-gen">Amount</th>
+                        <th class="th-gen">
+                            <span style="margin-left:20px;">Food Name</span>
+                        </th>
+                        <th class="th-gen">
+                            <span style="margin-left:20px;">Amount</span>
+                        </th>
                     </div>
                 </tr>
                 <tr class="tr-gen" style="height:63px" Visible="{value: RandomProtein != null}">
-                        <td class="td-gen">{{value: ProteinName}}</td>
-                        <td class="td-gen">{{value: ProteinAmount}}</td>
+                        <td class="td-gen">
+                            <span style="margin-left:20px;">{{value: ProteinName}} gram</span>
+                        </td>
+                        <td class="td-gen">
+                            <span style="margin-left:20px;">{{value: ProteinAmount}} gram</span>
+                        </td>
                 </tr>
                 <tr class="tr-gen" style="height:63px" Visible="{value: RandomFat != null}">
                     <div >
-                        <td class="td-gen">{{value: FatName}}</td>
-                        <td class="td-gen">{{value: FatAmount}}</td>
+                        <td class="td-gen">
+                            <span style="margin-left:20px;">{{value: FatName}} gram</span>
+                        </td>
+                        <td class="td-gen">
+                            <span style="margin-left:20px;">{{value: FatAmount}} gram</span>
+                        </td>
                     </div>
                 </tr>
                 <tr class="tr-gen" style="height:63px" Visible="{value: RandomCarb != null}">
                     <div >
-                        <td class="td-gen">{{value: CarbName}}</td>
-                        <td class="td-gen">{{value: CarbAmount}}</td>
+                        <td class="td-gen">
+                            <span style="margin-left:20px;">{{value: CarbName}} gram</span>
+                        </td>
+                        <td class="td-gen">
+                            <span style="margin-left:20px;">{{value: CarbAmount}} gram</span>
+                        </td>
                     </div>
                 </tr>
                 <tr class="tr-gen" style="height:63px" Visible="{value: MiscAmount > 0}">
                     <div >
-                        <td class="td-gen">{{value: MiscName}}</td>
-                        <td class="td-gen">{{value: MiscAmount}}</td>
+                        <td class="td-gen">
+                            <span style="margin-left:20px;">{{value: MiscName}} gram </span>
+                        </td>
+                        <td class="td-gen">
+                            <span style="margin-left:20px;">{{value: MiscAmount}} gram </span>
+                        </td>
                     </div>
                 </tr>
             </table>
