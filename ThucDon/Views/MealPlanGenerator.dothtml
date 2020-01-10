@@ -23,7 +23,7 @@
             </div>
 
             <table class="table-gen" Visible="{value: RandomProtein != null}" style="margin-bottom:30px;">
-                <tr class="tr-gen" style="height:63px;background-color:#77c14b;color:white;font-size:20px;">
+                <tr class="tr-gen" style="height:63px;background-color:#00b3b3;color:white;font-size:20px;">
                     <div>
                         <th class="th-gen">
                             <span style="margin-left:20px;">Food Name</span>

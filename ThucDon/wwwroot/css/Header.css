@@ -1438,10 +1438,25 @@ Main components
     width:100%;
 }
 
-.td-gen .th-gen{
-    border: 1px solid #dddddd;
-    text-align:left;
-    padding:8px;
+/*.td-gen {
+    border: 5px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+.th-gen {
+    border: 5px solid #000000;
+    text-align: left;
+    padding: 8px;
+}*/
+td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
 }
 .tr-gen:nth-child(even){
     background-color:#dddddd;
