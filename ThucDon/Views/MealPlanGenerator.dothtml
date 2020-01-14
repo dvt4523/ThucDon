@@ -11,11 +11,11 @@
                 </div>
             </div>
 
-            <p>
+            <div>
                 <dot:RadioButton CheckedValue="1" Text="Ketogenic" />
                 <dot:RadioButton CheckedValue="2" Text="Standard" />
                 <dot:RadioButton CheckedValue="3" Text="Low-carb" />
-            </p>
+            </div>
 
             <div class="form-group">
                 <dot:Button class="btn" style="background-color:#77c14b;color:white;border-color:#77c14b;max-width:230px;" Text="Generate Meal Plan" Click="{command:Generate()}" Validation.Enabled="false">
@@ -35,7 +35,7 @@
                 </tr>
                 <tr class="tr-gen" style="height:63px" Visible="{value: RandomProtein != null}">
                         <td class="td-gen">
-                            <span style="margin-left:20px;">{{value: ProteinName}} gram</span>
+                            <span style="margin-left:20px;">{{value: ProteinName}}</span>
                         </td>
                         <td class="td-gen">
                             <span style="margin-left:20px;">{{value: ProteinAmount}} gram</span>
@@ -44,7 +44,7 @@
                 <tr class="tr-gen" style="height:63px" Visible="{value: RandomFat != null}">
                     <div >
                         <td class="td-gen">
-                            <span style="margin-left:20px;">{{value: FatName}} gram</span>
+                            <span style="margin-left:20px;">{{value: FatName}}</span>
                         </td>
                         <td class="td-gen">
                             <span style="margin-left:20px;">{{value: FatAmount}} gram</span>
@@ -54,7 +54,7 @@
                 <tr class="tr-gen" style="height:63px" Visible="{value: RandomCarb != null}">
                     <div >
                         <td class="td-gen">
-                            <span style="margin-left:20px;">{{value: CarbName}} gram</span>
+                            <span style="margin-left:20px;">{{value: CarbName}}</span>
                         </td>
                         <td class="td-gen">
                             <span style="margin-left:20px;">{{value: CarbAmount}} gram</span>
@@ -64,7 +64,7 @@
                 <tr class="tr-gen" style="height:63px" Visible="{value: MiscAmount > 0}">
                     <div >
                         <td class="td-gen">
-                            <span style="margin-left:20px;">{{value: MiscName}} gram </span>
+                            <span style="margin-left:20px;">{{value: MiscName}} </span>
                         </td>
                         <td class="td-gen">
                             <span style="margin-left:20px;">{{value: MiscAmount}} gram </span>
